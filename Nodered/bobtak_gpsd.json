@@ -1,0 +1,182 @@
+[
+    {
+        "id": "d61d5053caa3edff",
+        "type": "tab",
+        "label": "BobTAK GPSD",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "0f0a28bad3e1f606",
+        "type": "gpsd",
+        "z": "d61d5053caa3edff",
+        "name": "",
+        "hostname": "localhost",
+        "port": "2947",
+        "tpv": true,
+        "sky": false,
+        "info": false,
+        "device": false,
+        "gst": false,
+        "att": false,
+        "x": 170,
+        "y": 80,
+        "wires": [
+            [
+                "dec2817574a4e430"
+            ]
+        ]
+    },
+    {
+        "id": "3b54e88ac63e6bd6",
+        "type": "debug",
+        "z": "d61d5053caa3edff",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 870,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "dec2817574a4e430",
+        "type": "switch",
+        "z": "d61d5053caa3edff",
+        "name": "Filter to TPV",
+        "property": "payload.class",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "TPV",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 2,
+        "x": 310,
+        "y": 100,
+        "wires": [
+            [
+                "0e2bbc84da5581cf"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "bfbb86e9fe33eda8",
+        "type": "udp out",
+        "z": "d61d5053caa3edff",
+        "name": "",
+        "addr": "239.2.3.1",
+        "iface": "",
+        "port": "6969",
+        "ipv": "udp4",
+        "outport": "",
+        "base64": false,
+        "multicast": "multi",
+        "x": 710,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "6f48b01196668791",
+        "type": "function",
+        "z": "d61d5053caa3edff",
+        "name": "CoT",
+        "func": "const dt = Date.now();\nconst dtD = new Date(dt);\nconst dtD5 = new Date(dt + 14400000);\n\nmsg.payload = {\n    \"event\": {\n        \"$\": {\n            \"version\": \"2.0\",\n            \"type\": \"a-f-G-U-U-S-R\",\n            \"uid\": global.get(\"mycallsign\"),\n            \"time\": dtD.toISOString(),\n            \"start\": dtD.toISOString(),\n            \"stale\": dtD5.toISOString(),\n            \"how\": \"m-g\"\n\n        },\n        \"detail\": [\n            {\n                \"contact\": [\n                    {\n                        \"$\": {\n                            \"callsign\": global.get(\"mycallsign\")\n                        }\n                    }],\n                \"link\": [\n                    {\n                        \"$\": {\n                            \"uid\": \"80085\",\n                            \"production_time\": dtD.toISOString(),\n                            \"type\": \"a-f-G-U-U-S-R\",\n                            \"parent_callsign\": \"BOBTAK\",\n                            \"relation\": \"p-p\"\n                        }\n                    }],\n                \"precisionlocation\": [\n                    {\n                        \"$\": {\n                            \"geopointsrc\": \"GPS\"\n                        }\n                    }]\n            }],\n        \"point\": [\n            {\n                \"$\": {\n                    \"lat\": `${msg.payload.lat}`,\n                    \"lon\": `${msg.payload.lon}`,\n                    \"hae\": `${msg.payload.altHAE}`,\n                    \"ce\": \"9999999.0\",\n                    \"le\": \"9999999.0\"\n                }\n\n            }\n        ]\n    }\n\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 670,
+        "y": 140,
+        "wires": [
+            [
+                "ab23542c7f044a17"
+            ]
+        ]
+    },
+    {
+        "id": "ab23542c7f044a17",
+        "type": "xml",
+        "z": "d61d5053caa3edff",
+        "name": "",
+        "property": "payload",
+        "attr": "",
+        "chr": "",
+        "x": 670,
+        "y": 180,
+        "wires": [
+            [
+                "bfbb86e9fe33eda8",
+                "3b54e88ac63e6bd6"
+            ]
+        ]
+    },
+    {
+        "id": "a88cb416bfbd8d33",
+        "type": "delay",
+        "z": "d61d5053caa3edff",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "60",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 680,
+        "y": 100,
+        "wires": [
+            [
+                "6f48b01196668791"
+            ]
+        ]
+    },
+    {
+        "id": "0e2bbc84da5581cf",
+        "type": "switch",
+        "z": "d61d5053caa3edff",
+        "name": "",
+        "property": "payload.mode",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "1",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 2,
+        "x": 470,
+        "y": 100,
+        "wires": [
+            [
+                "a88cb416bfbd8d33"
+            ],
+            []
+        ]
+    }
+]

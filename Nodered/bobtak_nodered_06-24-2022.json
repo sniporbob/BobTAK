@@ -1,0 +1,4508 @@
+[
+    {
+        "id": "8b54ee4c.ea65c",
+        "type": "tab",
+        "label": "BobTAK",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "f5dc25f9.a5649",
+        "type": "group",
+        "z": "8b54ee4c.ea65c",
+        "name": "Geochat",
+        "style": {
+            "stroke": "#92d04f",
+            "label": true
+        },
+        "nodes": [
+            "1c6839c7.757bee",
+            "6c4d9885.59c0e",
+            "b1fcec9e.27957",
+            "403cfa9e.cfa7bc",
+            "803b23a6.0f6758",
+            "1f118938943677a0",
+            "3dd3b19243ce47d9",
+            "12834b2af9c8aeef",
+            "728e884ee8f0fbdd",
+            "ce134ad32cfaa1b6",
+            "3dd3083e1eb7121c",
+            "f45ca8af34c2c8d5",
+            "e779a5deb9dbe464",
+            "7fce549521b78999",
+            "e6a87d2348ce4cc1"
+        ],
+        "x": 954,
+        "y": 1279,
+        "w": 1482,
+        "h": 262
+    },
+    {
+        "id": "254eac17e94fc317",
+        "type": "group",
+        "z": "8b54ee4c.ea65c",
+        "name": "Multicast Out",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "b8f62473379e71df",
+            "68953fb3e90a1761",
+            "520d7c534c5146c8",
+            "ce2290e97c4b972a"
+        ],
+        "x": 1994,
+        "y": 979,
+        "w": 272,
+        "h": 122
+    },
+    {
+        "id": "d8f5bb9088f1ce55",
+        "type": "group",
+        "z": "8b54ee4c.ea65c",
+        "name": "2525C",
+        "style": {
+            "stroke": "#bfdbef",
+            "label": true
+        },
+        "nodes": [
+            "b50af0dc.c23678",
+            "6bff8cc0.53ae24",
+            "b06c793abd4cb6c5",
+            "dede6a21df541b1d",
+            "abf171300f0f917b",
+            "4293e1e285423ebc",
+            "0298b40d237dc9a4"
+        ],
+        "x": 948,
+        "y": 879,
+        "w": 984,
+        "h": 242
+    },
+    {
+        "id": "6b96f7fd166dd3d7",
+        "type": "group",
+        "z": "8b54ee4c.ea65c",
+        "name": "Obtain pure message text",
+        "style": {
+            "stroke": "#3f3f3f",
+            "label": true
+        },
+        "nodes": [
+            "80ef503301041999",
+            "c28984d8e24352c0",
+            "93088c0f80eebb1e",
+            "bb3d0b05206f172b",
+            "4099e26f3839f67e",
+            "82caa97e934cd247"
+        ],
+        "x": 74,
+        "y": 1639,
+        "w": 1012,
+        "h": 122
+    },
+    {
+        "id": "5ec0d079efd20beb",
+        "type": "group",
+        "z": "8b54ee4c.ea65c",
+        "name": "TX.TEXT debug - Obtain pure message text",
+        "style": {
+            "stroke": "#3f3f3f",
+            "label": true
+        },
+        "nodes": [
+            "65a1ddd1b49e0772",
+            "c0308c2c6ae10a1a",
+            "501769a9dfd19495",
+            "38f69ab9b13da07e",
+            "75125c7085f21e84",
+            "37b3df945dc35c96",
+            "8143a92a8e362b1d"
+        ],
+        "x": 74,
+        "y": 1899,
+        "w": 942,
+        "h": 82
+    },
+    {
+        "id": "5b352d1787ba366a",
+        "type": "group",
+        "z": "8b54ee4c.ea65c",
+        "name": "TX configure geochat JS8call group",
+        "style": {
+            "stroke": "#6f2fa0",
+            "label": true
+        },
+        "nodes": [
+            "1ab91bc8560a9188",
+            "ed5a3b3863b5385b",
+            "89cd6073df0b8d32",
+            "536eb58a44e4fc48",
+            "eb1f747bead120a5"
+        ],
+        "x": 2154,
+        "y": 59,
+        "w": 642,
+        "h": 122
+    },
+    {
+        "id": "4f0ebd4782d45849",
+        "type": "group",
+        "z": "8b54ee4c.ea65c",
+        "name": "TX configure pli JS8call group",
+        "style": {
+            "stroke": "#6f2fa0",
+            "label": true
+        },
+        "nodes": [
+            "755b419c2bebddd5",
+            "e4d8ea31a3950453",
+            "4779f53da636c316",
+            "7d9a281b184ee894",
+            "494b9a383961e724"
+        ],
+        "x": 2154,
+        "y": 199,
+        "w": 642,
+        "h": 122
+    },
+    {
+        "id": "359c668394a8e40c",
+        "type": "group",
+        "z": "8b54ee4c.ea65c",
+        "name": "2525C",
+        "style": {
+            "stroke": "#0070c0",
+            "label": true
+        },
+        "nodes": [
+            "f91d86aad6f21218"
+        ],
+        "x": 1254,
+        "y": 239,
+        "w": 82,
+        "h": 82
+    },
+    {
+        "id": "b0dff7256fa3aa44",
+        "type": "group",
+        "z": "8b54ee4c.ea65c",
+        "name": "Create Maidenhead",
+        "style": {
+            "stroke": "#ffefbf",
+            "label": true
+        },
+        "nodes": [
+            "367e8f7477adf203",
+            "470aa654060aeb9f",
+            "ee65ac27d1748118"
+        ],
+        "x": 2154,
+        "y": 339,
+        "w": 362,
+        "h": 82
+    },
+    {
+        "id": "1ec75a897fad92ff",
+        "type": "group",
+        "z": "8b54ee4c.ea65c",
+        "name": "Type 2525C",
+        "style": {
+            "stroke": "#0070c0",
+            "label": true
+        },
+        "nodes": [
+            "51bed90fe56b8ba1",
+            "1d26247fa1916339",
+            "1b75dd0903f69888",
+            "32613f47cac9874a",
+            "6446d7a3969bd6a4",
+            "a53ef850deda9c67",
+            "b9cd668bc0c33938"
+        ],
+        "x": 2154,
+        "y": 439,
+        "w": 1242,
+        "h": 82
+    },
+    {
+        "id": "f373302b37579192",
+        "type": "group",
+        "z": "8b54ee4c.ea65c",
+        "name": "Type Spot",
+        "style": {
+            "stroke": "#ffff00",
+            "label": true
+        },
+        "nodes": [
+            "54fc24c83a9842d7",
+            "286bad5908c4b4c7",
+            "074900fadc9e3fe4",
+            "fb736a616b77a9f1",
+            "33be524aac971e24",
+            "12797457b0227b27",
+            "7bb24ad8d7c37980"
+        ],
+        "x": 2154,
+        "y": 539,
+        "w": 1242,
+        "h": 82
+    },
+    {
+        "id": "2ccd90acf36c6d03",
+        "type": "group",
+        "z": "8b54ee4c.ea65c",
+        "name": "Spot",
+        "style": {
+            "stroke": "#ffff00",
+            "label": true
+        },
+        "nodes": [
+            "643411502d43d581"
+        ],
+        "x": 1254,
+        "y": 319,
+        "w": 82,
+        "h": 82
+    },
+    {
+        "id": "466f58d6f321e8bc",
+        "type": "group",
+        "z": "8b54ee4c.ea65c",
+        "name": "Spot Map",
+        "style": {
+            "stroke": "#ffffbf",
+            "label": true
+        },
+        "nodes": [
+            "e7436f4e11e44234",
+            "627aded5e71ed0b2",
+            "ede570fd6fec4f3c",
+            "f0d9c6b02a50a38d",
+            "03fcda2aa1f2eb84",
+            "f5e7afc455430464"
+        ],
+        "x": 974,
+        "y": 1139,
+        "w": 782,
+        "h": 122
+    },
+    {
+        "id": "7565a618f2df4784",
+        "type": "group",
+        "z": "8b54ee4c.ea65c",
+        "name": "Type Self",
+        "style": {
+            "stroke": "#ff0000",
+            "label": true
+        },
+        "nodes": [
+            "90f268492d7b9875",
+            "6cab27ea19a8d831",
+            "786d9dc432ef1046",
+            "c8dc18ab683aa5b9",
+            "c00c1e0fb92ec026"
+        ],
+        "x": 2154,
+        "y": 639,
+        "w": 802,
+        "h": 82
+    },
+    {
+        "id": "4b44f3641f5b8a04",
+        "type": "group",
+        "z": "8b54ee4c.ea65c",
+        "name": "Self",
+        "style": {
+            "stroke": "#ff0000",
+            "label": true
+        },
+        "nodes": [
+            "49dc9cd640d1dad4"
+        ],
+        "x": 1254,
+        "y": 399,
+        "w": 82,
+        "h": 82
+    },
+    {
+        "id": "36d556d56b82cc52",
+        "type": "group",
+        "z": "8b54ee4c.ea65c",
+        "name": "Self",
+        "style": {
+            "stroke": "#ffbfbf",
+            "label": true
+        },
+        "nodes": [
+            "855378e38d24f6e3",
+            "b06138e83e320d1a",
+            "9a8fef750361e618",
+            "c8514e2834071e93",
+            "14b74d085c975762",
+            "e8ca1074ada9bc07"
+        ],
+        "x": 1134,
+        "y": 1559,
+        "w": 782,
+        "h": 122
+    },
+    {
+        "id": "4293e1e285423ebc",
+        "type": "group",
+        "z": "8b54ee4c.ea65c",
+        "g": "d8f5bb9088f1ce55",
+        "name": "Lowercase 2525C Attitude",
+        "style": {
+            "stroke": "#000000",
+            "label": true
+        },
+        "nodes": [
+            "aa10e03fca25dfa5",
+            "1b8a82de050726b5",
+            "b62bd9ddec8c5ed5",
+            "563cedc7709d7e67",
+            "5226d5209bd8e64a",
+            "15020e8ad2052312",
+            "b6837bc29c229ca2"
+        ],
+        "x": 974,
+        "y": 919,
+        "w": 932,
+        "h": 122
+    },
+    {
+        "id": "912da804.97fd",
+        "type": "debug",
+        "z": "8b54ee4c.ea65c",
+        "name": "JS8call debug",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 800,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "5f37842d.c5556c",
+        "type": "udp in",
+        "z": "8b54ee4c.ea65c",
+        "name": "",
+        "iface": "",
+        "port": "2242",
+        "ipv": "udp4",
+        "multicast": "false",
+        "group": "",
+        "datatype": "utf8",
+        "x": 80,
+        "y": 360,
+        "wires": [
+            [
+                "5d242ba5.ad0d0c"
+            ]
+        ]
+    },
+    {
+        "id": "d728560d.a8bb78",
+        "type": "udp out",
+        "z": "8b54ee4c.ea65c",
+        "name": "To JS8call",
+        "addr": "127.0.0.1",
+        "iface": "",
+        "port": "",
+        "ipv": "udp4",
+        "outport": "",
+        "base64": false,
+        "multicast": "false",
+        "x": 2050,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "a34a5e85.4ea57",
+        "type": "inject",
+        "z": "8b54ee4c.ea65c",
+        "name": "tx.set_text",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"type\":\"TX.SET_TEXT\",\"value\":\"TEST6\"}",
+        "payloadType": "str",
+        "x": 1520,
+        "y": 80,
+        "wires": [
+            [
+                "a27e101a.d77fd8"
+            ]
+        ]
+    },
+    {
+        "id": "8f9d2e68.eff7",
+        "type": "inject",
+        "z": "8b54ee4c.ea65c",
+        "name": "mode.get_speed",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"type\":\"MODE.GET_SPEED\"}",
+        "payloadType": "str",
+        "x": 1540,
+        "y": 120,
+        "wires": [
+            [
+                "a27e101a.d77fd8"
+            ]
+        ]
+    },
+    {
+        "id": "5d242ba5.ad0d0c",
+        "type": "change",
+        "z": "8b54ee4c.ea65c",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "js8calludpport",
+                "pt": "flow",
+                "to": "port",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 280,
+        "y": 360,
+        "wires": [
+            [
+                "1fdd7736.c85879"
+            ]
+        ]
+    },
+    {
+        "id": "1fdd7736.c85879",
+        "type": "json",
+        "z": "8b54ee4c.ea65c",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 450,
+        "y": 360,
+        "wires": [
+            [
+                "ff1ad16a.06f448",
+                "c718df7ee7a9ffeb"
+            ]
+        ]
+    },
+    {
+        "id": "ff1ad16a.06f448",
+        "type": "switch",
+        "z": "8b54ee4c.ea65c",
+        "name": "API Type",
+        "property": "payload.type",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "PING",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "MODE.SPEED",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "RIG.FREQ",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "RX.SPOT",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "RX.DIRECTED",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "TX.TEXT",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 6,
+        "x": 140,
+        "y": 460,
+        "wires": [
+            [
+                "ec5bec5e.27c76"
+            ],
+            [
+                "b7cc31ef.cf5bf8"
+            ],
+            [
+                "600b2c15.e1bbec"
+            ],
+            [
+                "d1fa4945.716b4"
+            ],
+            [
+                "9c778c79dabd638a"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "9101722a.023538",
+        "type": "switch",
+        "z": "8b54ee4c.ea65c",
+        "name": "Mode.Speed",
+        "property": "payload.params.SPEED",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "3",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "4",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 5,
+        "x": 530,
+        "y": 580,
+        "wires": [
+            [
+                "92ea3e81.cb3c8"
+            ],
+            [
+                "2a568926.ffaa5e"
+            ],
+            [
+                "3e8e6b32.6c0db4"
+            ],
+            [
+                "4a749756.e88148"
+            ],
+            [
+                "664331ae.e17df"
+            ]
+        ]
+    },
+    {
+        "id": "92ea3e81.cb3c8",
+        "type": "change",
+        "z": "8b54ee4c.ea65c",
+        "name": "Normal",
+        "rules": [
+            {
+                "t": "set",
+                "p": "desc",
+                "pt": "msg",
+                "to": "Normal",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 720,
+        "y": 500,
+        "wires": [
+            [
+                "cee256b5.34c638"
+            ]
+        ]
+    },
+    {
+        "id": "2a568926.ffaa5e",
+        "type": "change",
+        "z": "8b54ee4c.ea65c",
+        "name": "Fast",
+        "rules": [
+            {
+                "t": "set",
+                "p": "desc",
+                "pt": "msg",
+                "to": "Fast",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 710,
+        "y": 540,
+        "wires": [
+            [
+                "cee256b5.34c638"
+            ]
+        ]
+    },
+    {
+        "id": "3e8e6b32.6c0db4",
+        "type": "change",
+        "z": "8b54ee4c.ea65c",
+        "name": "Turbo",
+        "rules": [
+            {
+                "t": "set",
+                "p": "desc",
+                "pt": "msg",
+                "to": "Turbo",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 710,
+        "y": 580,
+        "wires": [
+            [
+                "cee256b5.34c638"
+            ]
+        ]
+    },
+    {
+        "id": "4a749756.e88148",
+        "type": "change",
+        "z": "8b54ee4c.ea65c",
+        "name": "Ultra",
+        "rules": [
+            {
+                "t": "set",
+                "p": "desc",
+                "pt": "msg",
+                "to": "Ultra",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 710,
+        "y": 620,
+        "wires": [
+            [
+                "cee256b5.34c638"
+            ]
+        ]
+    },
+    {
+        "id": "664331ae.e17df",
+        "type": "change",
+        "z": "8b54ee4c.ea65c",
+        "name": "Slow",
+        "rules": [
+            {
+                "t": "set",
+                "p": "desc",
+                "pt": "msg",
+                "to": "Slow",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 710,
+        "y": 660,
+        "wires": [
+            [
+                "cee256b5.34c638"
+            ]
+        ]
+    },
+    {
+        "id": "b7cc31ef.cf5bf8",
+        "type": "change",
+        "z": "8b54ee4c.ea65c",
+        "name": "Topic Speed",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "speed",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 370,
+        "y": 580,
+        "wires": [
+            [
+                "9101722a.023538"
+            ]
+        ]
+    },
+    {
+        "id": "b7c0dd6e.06288",
+        "type": "trigger",
+        "z": "8b54ee4c.ea65c",
+        "name": "Connected (rx'd ping)",
+        "op1": "Connected",
+        "op2": "Disconnected",
+        "op1type": "str",
+        "op2type": "str",
+        "duration": "30",
+        "extend": true,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 600,
+        "y": 440,
+        "wires": [
+            [
+                "e064cdca.3365a8"
+            ]
+        ]
+    },
+    {
+        "id": "ec5bec5e.27c76",
+        "type": "change",
+        "z": "8b54ee4c.ea65c",
+        "name": "Topic Connection",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "connection",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 390,
+        "y": 440,
+        "wires": [
+            [
+                "b7c0dd6e.06288"
+            ]
+        ]
+    },
+    {
+        "id": "cee256b5.34c638",
+        "type": "change",
+        "z": "8b54ee4c.ea65c",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{$.topic:$.desc}",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1040,
+        "y": 560,
+        "wires": [
+            [
+                "d75c3dbe.66403"
+            ]
+        ]
+    },
+    {
+        "id": "e064cdca.3365a8",
+        "type": "change",
+        "z": "8b54ee4c.ea65c",
+        "name": "",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "desc",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 810,
+        "y": 440,
+        "wires": [
+            [
+                "cee256b5.34c638"
+            ]
+        ]
+    },
+    {
+        "id": "d75c3dbe.66403",
+        "type": "debug",
+        "z": "8b54ee4c.ea65c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1250,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "600b2c15.e1bbec",
+        "type": "change",
+        "z": "8b54ee4c.ea65c",
+        "name": "Topic Freq",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "freq",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 370,
+        "y": 740,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e8fe5080.eba8a",
+        "type": "inject",
+        "z": "8b54ee4c.ea65c",
+        "name": "rig.get_freq",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"type\":\"RIG.GET_FREQ\"}",
+        "payloadType": "str",
+        "x": 1530,
+        "y": 160,
+        "wires": [
+            [
+                "a27e101a.d77fd8"
+            ]
+        ]
+    },
+    {
+        "id": "c1b0edf6.2dc8",
+        "type": "inject",
+        "z": "8b54ee4c.ea65c",
+        "name": "station.get_status",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"type\":\"STATION.GET_STATUS\"}",
+        "payloadType": "str",
+        "x": 1540,
+        "y": 200,
+        "wires": [
+            [
+                "a27e101a.d77fd8"
+            ]
+        ]
+    },
+    {
+        "id": "45da7a7d.e664f4",
+        "type": "inject",
+        "z": "8b54ee4c.ea65c",
+        "name": "station.get_info",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"type\":\"STATION.GET_INFO\"}",
+        "payloadType": "str",
+        "x": 1540,
+        "y": 240,
+        "wires": [
+            [
+                "a27e101a.d77fd8"
+            ]
+        ]
+    },
+    {
+        "id": "e83b3468.51b14",
+        "type": "inject",
+        "z": "8b54ee4c.ea65c",
+        "name": "rx.get_band_activity",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"type\":\"RX.GET_BAND_ACTIVITY\"}",
+        "payloadType": "str",
+        "x": 1550,
+        "y": 280,
+        "wires": [
+            [
+                "a27e101a.d77fd8"
+            ]
+        ]
+    },
+    {
+        "id": "d1fa4945.716b4",
+        "type": "change",
+        "z": "8b54ee4c.ea65c",
+        "name": "Topic Spot",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "spot",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload.Maidenhead",
+                "pt": "msg",
+                "to": "payload.params.GRID",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload.callsign",
+                "pt": "msg",
+                "to": "payload.params.CALL",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload.time",
+                "pt": "msg",
+                "to": "",
+                "tot": "date"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 370,
+        "y": 840,
+        "wires": [
+            [
+                "1ccb5570.39929b"
+            ]
+        ]
+    },
+    {
+        "id": "ff468168.b344e",
+        "type": "function",
+        "z": "8b54ee4c.ea65c",
+        "name": "Maidenhead -> Lat, Lon",
+        "func": "/*\nMaidenhead Class taken from: \n  https://github.com/mehmetc/Maidenhead\nAuthor: Mehmet Celik\nLicense: MIT\nCopyright: Copyright 2016 Mehmet Celik\n\nThe MIT License (MIT)\n\nCopyright (c) 2016 Mehmet Celik\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n*/\n\nclass Maidenhead {\n    constructor(lat, lon, precision = 5){\n        this.lat = lat;\n        this.lon = lon;\n        this.precision = precision;\n    }\n\n    static valid(mlocation){\n        if (typeof mlocation !== 'string') {\n            return false;\n        }\n\n        if (mlocation.length < 2) {\n            return false;\n        }\n\n        if ((mlocation.length % 2) !== 0) {\n            return false;\n        }\n\n        var length = mlocation.length / 2;\n\n        for (var counter=0; counter<length;i++){\n            var grid = mlocation.substr(counter*2,2);\n\n            if (counter == 0){\n                if (grid.match(/[a-rA-R]{2}/) == null) {\n                    return false;\n                }\n\n            } else if ((counter % 2) == 0) {\n                if (grid.match(/[a-xA-X]{2}/) == null) {\n                    return false;\n                }\n            } else {\n                if (grid.match(/[0-9]{2}/) == null) {\n                    return false;\n                }\n            }\n            return true;\n        }\n    }\n\n    static toLatLon(mlocation){\n        var maidenhead = new Maidenhead();\n        maidenhead.locator = mlocation;\n\n        return [maidenhead.lat, maidenhead.lon];\n    }\n\n    distanceTo(endLatLon, unit = 'km'){\n        var r = 6371;\n\n        switch(unit) {\n           case 'm':\n               r *= 1000;\n        }\n\n        var hn = this._deg_to_rad(this.lat);\n        var he = this._deg_to_rad(this.lon);\n        var n  = this._deg_to_rad(endLatLon.lat);\n        var e  = this._deg_to_rad(endLatLon.lon);\n\n        var co = Math.cos(he-e) * Math.cos(hn) * Math.cos(n) + Math.sin(hn) * Math.sin(n);\n        var ca = Math.atan(Math.abs(Math.sqrt(1-co*co) / co));\n\n        if (co <0) {\n            ca = Math.PI - ca;\n        }\n\n        return r * ca;\n    }\n\n    bearingTo(toHeading, compassBearing = false) {\n        let hn = this._deg_to_rad(this.lat);\n        let he = this._deg_to_rad(this.lon);\n        let n  = this._deg_to_rad(toHeading.lat);\n        let e  = this._deg_to_rad(toHeading.lon);\n\n        let co = Math.cos(he - e) * Math.cos(hn) * Math.cos(n) + Math.sin(hn) * Math.sin(n);\n        let ca = Math.atan(Math.abs(Math.sqrt(1-co *co)/co));\n\n        if(co <0) {\n            ca = Math.PI - ca\n        }\n\n        let si = Math.sin(e-he) * Math.cos(n) * Math.cos(hn);\n        co = Math.sin(n) - Math.sin(hn) * Math.cos(ca);\n        let az = Math.atan(Math.abs(si/co));\n\n        if (co < 0) {\n            az = Math.PI - az;\n        }\n\n        if(si < 0) {\n            az = -az;\n        }\n\n        if(az < 0) {\n            az = az + 2 * Math.PI;\n        }\n\n        var heading = Math.round(this._rad_to_deg(az));\n\n        if (compassBearing) {\n            heading = this._compass_bearing(heading);\n        }\n\n        return heading;\n    }\n\n    get lat(){\n        return parseFloat(this._lat.toPrecision(6));\n    }\n\n    set lat(pos){\n        this._lat = this._range_check(\"lat\", 90.0, pos)\n    }\n\n    get lon(){\n        return parseFloat(this._lon.toPrecision(6));\n    }\n\n    set lon(pos){\n        this._lon = this._range_check(\"lon\", 180.0, pos)\n    }\n\n    get precision(){\n        return this._precision;\n    }\n\n    set precision(p) {\n        this._precision = p;\n    }\n\n    set locator(mlocation){\n        if (!Maidenhead.valid(mlocation)) {\n            throw \"Location is not a valid Maidenhead Locator System string\";\n        }\n\n        this._locator = mlocation;\n        this._lat = -90.00;\n        this._lon = -180.00;\n\n        this._pad_locator();\n\n        this._convert_part_to_latlon(0, 1);\n        this._convert_part_to_latlon(1, 10);\n        this._convert_part_to_latlon(2, 10 * 24);\n        this._convert_part_to_latlon(3, 10 * 24 * 10);\n        this._convert_part_to_latlon(4, 10 * 24 * 10 * 24);\n    }\n\n    get locator(){\n        this._locator = '';\n        this.__lat = this.lat + 90.0;\n        this.__lon = this.lon + 180.0;\n        this.__precision = this.precision;\n\n\n        this._calculate_field();\n        this._calculate_values();\n\n        return this._locator;\n    }\n\n    _compass_bearing(heading) {\n        if (heading >= 0 && heading <= 360){\n            var compassBearings = [\n                {\"label\": \"N\", \"start\": 0, \"end\": 11},\n                {\"label\": \"NNE\", \"start\": 11, \"end\": 33},\n                {\"label\": \"NE\", \"start\": 34, \"end\": 56},\n                {\"label\": \"ENE\", \"start\": 57, \"end\": 78},\n                {\"label\": \"E\", \"start\": 79, \"end\": 101},\n                {\"label\": \"ESE\", \"start\": 102, \"end\": 123},\n                {\"label\": \"SE\", \"start\": 124, \"end\": 146},\n                {\"label\": \"SSE\", \"start\": 147, \"end\": 168},\n                {\"label\": \"S\", \"start\": 169, \"end\": 191},\n                {\"label\": \"SSW\", \"start\": 192, \"end\": 213},\n                {\"label\": \"SW\", \"start\": 214, \"end\": 236},\n                {\"label\": \"WSW\", \"start\": 237, \"end\": 258},\n                {\"label\": \"W\", \"start\":\t259, \"end\": 281},\n                {\"label\": \"WNW\", \"start\": 282, \"end\": 303},\n                {\"label\": \"NW\", \"start\": 304, \"end\": 326},\n                {\"label\": \"NNW\", \"start\": 327, \"end\": 348},\n                {\"label\": \"N\", \"start\": 349, \"end\": 360}\n            ];\n\n            var result = compassBearings.find(function (element, index, array) {\n                if (heading > element.start && heading < element.end) {\n                    return true;\n                }\n                return false;\n            });\n\n            return result ? result.label : '';\n        }\n    }\n\n    _deg_to_rad(deg) {\n        return deg / 180 * Math.PI;\n    }\n\n    _rad_to_deg(rad) {\n        return rad / Math.PI * 180;\n    }\n\n    _pad_locator(){\n        var length = this._locator.length / 2 ;\n\n        while (length < 5) {\n            if ((length%2) == 1) {\n                this._locator += '55';\n            }\n            else {\n                this._locator += 'LL';\n            }\n\n            length = this._locator.length / 2;\n        }\n    }\n\n    _range_check(target, range, pos) {\n        pos = Number(pos);\n        if (pos < -range || pos > range){\n            throw target + \" must be between -\" + range + \" and +\" + range;\n        }\n\n        return pos;\n    }\n\n    _convert_part_to_latlon(counter, divisor) {\n        var grid_lon = this._locator.substr(counter*2, 1);\n        var grid_lat = this._locator.substr(counter*2+1, 1);\n\n        this._lat += this._l2n(grid_lat) * 10.0 / divisor;\n        this._lon += this._l2n(grid_lon) * 20.0 / divisor;\n    }\n\n    _calculate_field(){\n        this.__lat = (this.__lat/10) + 0.0000001;\n        this.__lon = (this.__lon/20) + 0.0000001;\n        this._locator += this._n2l(Math.floor(this.__lon)).toUpperCase() + this._n2l(Math.floor(this.__lat)).toUpperCase();\n        this.__precision -= 1;\n    }\n\n    _calculate_values(){\n        for (let counter=0; counter < this.__precision;counter++) {\n            if((counter%2) == 0) {\n                this._compute_locator(counter, 10);\n            } else {\n                this._compute_locator(counter, 24);\n            }\n        }\n    }\n\n    _compute_locator(counter, divisor){\n        this.__lat = (this.__lat - Math.floor(this.__lat)) * divisor;\n        this.__lon = (this.__lon - Math.floor(this.__lon)) * divisor;\n\n        if ((counter%2) == 0) {\n            this._locator += \"\" + Math.floor(this.__lon) + \"\" + Math.floor(this.__lat)\n        } else {\n            this._locator += this._n2l(Math.floor(this.__lon)) + this._n2l(Math.floor(this.__lat))\n        }\n    }\n\n    _l2n(letter){\n        if (letter.match(/[0-9]+/)) {\n            return parseInt(letter);\n        }else{\n            return letter.toLowerCase().charCodeAt(0) - 97;\n        }\n\n    }\n    _n2l(number){\n        return String.fromCharCode(97 + number);\n    }\n}\n\n// Extract Maidenhead & Callsign from CQ Call:\n//let splitCopy = msg.payload.copy.split(\" \")\n//msg.payload.Maidenhead = splitCopy.pop();\n//msg.payload.callsign = splitCopy.pop();\n\n// Extract Latitute & Longitude from Maidenhead:\nmsg.payload.location = Maidenhead.toLatLon(msg.payload.Maidenhead);\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 950,
+        "y": 840,
+        "wires": [
+            [
+                "953af718.6a72b8"
+            ]
+        ]
+    },
+    {
+        "id": "953af718.6a72b8",
+        "type": "function",
+        "z": "8b54ee4c.ea65c",
+        "name": "CoT",
+        "func": "const dt = Date.now();\nconst dtD = new Date(dt);\nconst dtD5 = new Date(dt + 14400000);\n\nmsg.payload = {\n    \"event\": {\n        \"$\": { \n            \"version\":\"2.0\",\n            \"type\":\"a-n-G-U-U-S-R\",\n            \"uid\":`${msg.payload.params.FROM}`,\n            \"time\":dtD.toISOString(),\n            \"start\":dtD.toISOString(),\n            \"stale\":dtD5.toISOString(),\n            \"how\":\"m-g\"\n\n        },\n        \"detail\": [\n            {\n                \"remarks\": \"JS8 Station SNR: \"+`${msg.payload.params.SNR}`\n            }],\n        \"point\": [ \n            { \n                \"$\": { \n                    \"lat\": `${msg.payload.location[0]}`, \n                    \"lon\": `${msg.payload.location[1]}`, \n                    \"hae\": \"9999999.0\", \n                    \"ce\": \"9999999.0\", \n                    \"le\": \"9999999.0\"\n                }\n                \n            }\n        ]\n    }\n    \n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1130,
+        "y": 840,
+        "wires": [
+            [
+                "c9f26484.cc198"
+            ]
+        ]
+    },
+    {
+        "id": "c9f26484.cc198",
+        "type": "xml",
+        "z": "8b54ee4c.ea65c",
+        "name": "",
+        "property": "payload",
+        "attr": "",
+        "chr": "",
+        "x": 1270,
+        "y": 840,
+        "wires": [
+            [
+                "d75c3dbe.66403",
+                "da5fca12cd52d24d"
+            ]
+        ]
+    },
+    {
+        "id": "1ccb5570.39929b",
+        "type": "switch",
+        "z": "8b54ee4c.ea65c",
+        "name": "Sort blank grid",
+        "property": "payload.Maidenhead",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "neq",
+                "v": "",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 540,
+        "y": 840,
+        "wires": [
+            [
+                "7c2c5a9e.2f192c"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "7c2c5a9e.2f192c",
+        "type": "change",
+        "z": "8b54ee4c.ea65c",
+        "name": "Trim leading space",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload.Maidenhead",
+                "pt": "msg",
+                "from": " ",
+                "fromt": "str",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 730,
+        "y": 840,
+        "wires": [
+            [
+                "ff468168.b344e"
+            ]
+        ]
+    },
+    {
+        "id": "a27e101a.d77fd8",
+        "type": "change",
+        "z": "8b54ee4c.ea65c",
+        "name": "Set JS8call port",
+        "rules": [
+            {
+                "t": "set",
+                "p": "port",
+                "pt": "msg",
+                "to": "js8calludpport",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1850,
+        "y": 260,
+        "wires": [
+            [
+                "d728560d.a8bb78",
+                "1a8323b0f31b7c57"
+            ]
+        ]
+    },
+    {
+        "id": "c22db45e0e2396f0",
+        "type": "udp in",
+        "z": "8b54ee4c.ea65c",
+        "name": "",
+        "iface": "",
+        "port": "42069",
+        "ipv": "udp4",
+        "multicast": "true",
+        "group": "224.4.20.69",
+        "datatype": "utf8",
+        "x": 140,
+        "y": 260,
+        "wires": [
+            [
+                "31ab88177f59f02b"
+            ]
+        ]
+    },
+    {
+        "id": "4ba8c5b6928e2bc7",
+        "type": "csv",
+        "z": "8b54ee4c.ea65c",
+        "name": "",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "none",
+        "multi": "one",
+        "ret": "\\n",
+        "temp": "method,callsign,vala,valb,valc,vald",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 330,
+        "y": 40,
+        "wires": [
+            [
+                "7e3893520c7271f5"
+            ]
+        ]
+    },
+    {
+        "id": "7e3893520c7271f5",
+        "type": "switch",
+        "z": "8b54ee4c.ea65c",
+        "name": "",
+        "property": "payload.method",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "3",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 450,
+        "y": 80,
+        "wires": [
+            [
+                "aea55b67a996e318"
+            ],
+            [],
+            [
+                "b14ee3af7d3924a1"
+            ]
+        ]
+    },
+    {
+        "id": "4f367543937dc17d",
+        "type": "inject",
+        "z": "8b54ee4c.ea65c",
+        "name": "Test PLI",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "1,callsign,9001,F-G-U-C,DM08AA50GG",
+        "payloadType": "str",
+        "x": 120,
+        "y": 40,
+        "wires": [
+            [
+                "4ba8c5b6928e2bc7"
+            ]
+        ]
+    },
+    {
+        "id": "91a7cf7419b1675f",
+        "type": "function",
+        "z": "8b54ee4c.ea65c",
+        "name": "Make PLI message",
+        "func": "//txdata =msg.payload.callsign + \",\" + msg.payload.lat + \",\" + msg.payload.lon\n// replaced lat/lon with maidenhead\nconst txdata = \"@BOBTAK 1,\" +msg.payload.callsign+ \",\" +msg.payload.uid+ \",\" +msg.payload.milstd_type+ \",\" +msg.payload.maidenhead\nmsg.payload = {\n    type:\"TX.SEND_MESSAGE\",value:txdata\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1270,
+        "y": 60,
+        "wires": [
+            [
+                "f714786d9a30b660"
+            ]
+        ]
+    },
+    {
+        "id": "1a8323b0f31b7c57",
+        "type": "debug",
+        "z": "8b54ee4c.ea65c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2050,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "f714786d9a30b660",
+        "type": "json",
+        "z": "8b54ee4c.ea65c",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 1530,
+        "y": 320,
+        "wires": [
+            [
+                "a27e101a.d77fd8"
+            ]
+        ]
+    },
+    {
+        "id": "ce1b80e2.b38d6",
+        "type": "udp in",
+        "z": "8b54ee4c.ea65c",
+        "name": "",
+        "iface": "",
+        "port": "42068",
+        "ipv": "udp4",
+        "multicast": "false",
+        "group": "",
+        "datatype": "utf8",
+        "x": 100,
+        "y": 200,
+        "wires": [
+            [
+                "67ecd27d65370b3a"
+            ]
+        ]
+    },
+    {
+        "id": "ead3cd41.5cee1",
+        "type": "change",
+        "z": "8b54ee4c.ea65c",
+        "name": "Topic BOBTAK",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "BOBTAK",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 320,
+        "y": 1020,
+        "wires": [
+            [
+                "82caa97e934cd247"
+            ]
+        ]
+    },
+    {
+        "id": "c2e55.f8fc49ab",
+        "type": "split",
+        "z": "8b54ee4c.ea65c",
+        "name": "",
+        "splt": ",",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "x": 570,
+        "y": 1020,
+        "wires": [
+            [
+                "8ee40f1a.4d717"
+            ]
+        ]
+    },
+    {
+        "id": "8ee40f1a.4d717",
+        "type": "join",
+        "z": "8b54ee4c.ea65c",
+        "name": "",
+        "mode": "custom",
+        "build": "array",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "",
+        "count": "",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 690,
+        "y": 1020,
+        "wires": [
+            [
+                "8117579.fcd3028"
+            ]
+        ]
+    },
+    {
+        "id": "1c6839c7.757bee",
+        "type": "split",
+        "z": "8b54ee4c.ea65c",
+        "g": "f5dc25f9.a5649",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "x": 1030,
+        "y": 1380,
+        "wires": [
+            [
+                "b1fcec9e.27957"
+            ]
+        ]
+    },
+    {
+        "id": "8117579.fcd3028",
+        "type": "switch",
+        "z": "8b54ee4c.ea65c",
+        "name": "Message Type",
+        "property": "payload[0]",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "3",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "4",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 4,
+        "x": 840,
+        "y": 1020,
+        "wires": [
+            [
+                "aa10e03fca25dfa5"
+            ],
+            [
+                "e7436f4e11e44234"
+            ],
+            [
+                "1c6839c7.757bee"
+            ],
+            [
+                "855378e38d24f6e3"
+            ]
+        ]
+    },
+    {
+        "id": "6c4d9885.59c0e",
+        "type": "join",
+        "z": "8b54ee4c.ea65c",
+        "g": "f5dc25f9.a5649",
+        "name": "",
+        "mode": "custom",
+        "build": "string",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": ",",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "",
+        "count": "",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 1630,
+        "y": 1400,
+        "wires": [
+            [
+                "728e884ee8f0fbdd"
+            ]
+        ]
+    },
+    {
+        "id": "f994ed59.b9063",
+        "type": "inject",
+        "z": "8b54ee4c.ea65c",
+        "name": "tx.get_text",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"type\":\"TX.GET_TEXT\"}",
+        "payloadType": "str",
+        "x": 1520,
+        "y": 40,
+        "wires": [
+            [
+                "a27e101a.d77fd8"
+            ]
+        ]
+    },
+    {
+        "id": "b1fcec9e.27957",
+        "type": "switch",
+        "z": "8b54ee4c.ea65c",
+        "g": "f5dc25f9.a5649",
+        "name": "Split type,callsign,text",
+        "property": "msg.parts.count - msg.parts.index",
+        "propertyType": "jsonata",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "msg.parts.count",
+                "vt": "jsonata"
+            },
+            {
+                "t": "eq",
+                "v": "msg.parts.count - 1",
+                "vt": "jsonata"
+            },
+            {
+                "t": "gt",
+                "v": "2",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 4,
+        "x": 1200,
+        "y": 1380,
+        "wires": [
+            [],
+            [
+                "12834b2af9c8aeef"
+            ],
+            [
+                "803b23a6.0f6758"
+            ],
+            [
+                "403cfa9e.cfa7bc"
+            ]
+        ]
+    },
+    {
+        "id": "403cfa9e.cfa7bc",
+        "type": "change",
+        "z": "8b54ee4c.ea65c",
+        "g": "f5dc25f9.a5649",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "parts.index",
+                "pt": "msg",
+                "to": "parts.index - 2",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "complete",
+                "pt": "msg",
+                "to": "true",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1440,
+        "y": 1440,
+        "wires": [
+            [
+                "6c4d9885.59c0e"
+            ]
+        ]
+    },
+    {
+        "id": "803b23a6.0f6758",
+        "type": "change",
+        "z": "8b54ee4c.ea65c",
+        "g": "f5dc25f9.a5649",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "parts.index",
+                "pt": "msg",
+                "to": "parts.index - 2",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1450,
+        "y": 1400,
+        "wires": [
+            [
+                "6c4d9885.59c0e"
+            ]
+        ]
+    },
+    {
+        "id": "b50af0dc.c23678",
+        "type": "change",
+        "z": "8b54ee4c.ea65c",
+        "g": "d8f5bb9088f1ce55",
+        "name": "",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payloadArray",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload.callsign",
+                "pt": "msg",
+                "to": "payloadArray[1]",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload.uid",
+                "pt": "msg",
+                "to": "payloadArray[2]",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload.milstd_type",
+                "pt": "msg",
+                "to": "payloadArray[3]",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload.Maidenhead",
+                "pt": "msg",
+                "to": "payloadArray[4]",
+                "tot": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payloadArray",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payload_orig",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1140,
+        "y": 1080,
+        "wires": [
+            [
+                "6bff8cc0.53ae24"
+            ]
+        ]
+    },
+    {
+        "id": "6bff8cc0.53ae24",
+        "type": "function",
+        "z": "8b54ee4c.ea65c",
+        "g": "d8f5bb9088f1ce55",
+        "name": "Maidenhead -> Lat, Lon",
+        "func": "/*\nMaidenhead Class taken from: \n  https://github.com/mehmetc/Maidenhead\nAuthor: Mehmet Celik\nLicense: MIT\nCopyright: Copyright 2016 Mehmet Celik\n\nThe MIT License (MIT)\n\nCopyright (c) 2016 Mehmet Celik\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n*/\n\nclass Maidenhead {\n    constructor(lat, lon, precision = 5){\n        this.lat = lat;\n        this.lon = lon;\n        this.precision = precision;\n    }\n\n    static valid(mlocation){\n        if (typeof mlocation !== 'string') {\n            return false;\n        }\n\n        if (mlocation.length < 2) {\n            return false;\n        }\n\n        if ((mlocation.length % 2) !== 0) {\n            return false;\n        }\n\n        var length = mlocation.length / 2;\n\n        for (var counter=0; counter<length;i++){\n            var grid = mlocation.substr(counter*2,2);\n\n            if (counter == 0){\n                if (grid.match(/[a-rA-R]{2}/) == null) {\n                    return false;\n                }\n\n            } else if ((counter % 2) == 0) {\n                if (grid.match(/[a-xA-X]{2}/) == null) {\n                    return false;\n                }\n            } else {\n                if (grid.match(/[0-9]{2}/) == null) {\n                    return false;\n                }\n            }\n            return true;\n        }\n    }\n\n    static toLatLon(mlocation){\n        var maidenhead = new Maidenhead();\n        maidenhead.locator = mlocation;\n\n        return [maidenhead.lat, maidenhead.lon];\n    }\n\n    distanceTo(endLatLon, unit = 'km'){\n        var r = 6371;\n\n        switch(unit) {\n           case 'm':\n               r *= 1000;\n        }\n\n        var hn = this._deg_to_rad(this.lat);\n        var he = this._deg_to_rad(this.lon);\n        var n  = this._deg_to_rad(endLatLon.lat);\n        var e  = this._deg_to_rad(endLatLon.lon);\n\n        var co = Math.cos(he-e) * Math.cos(hn) * Math.cos(n) + Math.sin(hn) * Math.sin(n);\n        var ca = Math.atan(Math.abs(Math.sqrt(1-co*co) / co));\n\n        if (co <0) {\n            ca = Math.PI - ca;\n        }\n\n        return r * ca;\n    }\n\n    bearingTo(toHeading, compassBearing = false) {\n        let hn = this._deg_to_rad(this.lat);\n        let he = this._deg_to_rad(this.lon);\n        let n  = this._deg_to_rad(toHeading.lat);\n        let e  = this._deg_to_rad(toHeading.lon);\n\n        let co = Math.cos(he - e) * Math.cos(hn) * Math.cos(n) + Math.sin(hn) * Math.sin(n);\n        let ca = Math.atan(Math.abs(Math.sqrt(1-co *co)/co));\n\n        if(co <0) {\n            ca = Math.PI - ca\n        }\n\n        let si = Math.sin(e-he) * Math.cos(n) * Math.cos(hn);\n        co = Math.sin(n) - Math.sin(hn) * Math.cos(ca);\n        let az = Math.atan(Math.abs(si/co));\n\n        if (co < 0) {\n            az = Math.PI - az;\n        }\n\n        if(si < 0) {\n            az = -az;\n        }\n\n        if(az < 0) {\n            az = az + 2 * Math.PI;\n        }\n\n        var heading = Math.round(this._rad_to_deg(az));\n\n        if (compassBearing) {\n            heading = this._compass_bearing(heading);\n        }\n\n        return heading;\n    }\n\n    get lat(){\n        return parseFloat(this._lat.toPrecision(7));\n    }\n\n    set lat(pos){\n        this._lat = this._range_check(\"lat\", 90.0, pos)\n    }\n\n    get lon(){\n        return parseFloat(this._lon.toPrecision(7));\n    }\n\n    set lon(pos){\n        this._lon = this._range_check(\"lon\", 180.0, pos)\n    }\n\n    get precision(){\n        return this._precision;\n    }\n\n    set precision(p) {\n        this._precision = p;\n    }\n\n    set locator(mlocation){\n        if (!Maidenhead.valid(mlocation)) {\n            throw \"Location is not a valid Maidenhead Locator System string\";\n        }\n\n        this._locator = mlocation;\n        this._lat = -90.00;\n        this._lon = -180.00;\n\n        this._pad_locator();\n\n        this._convert_part_to_latlon(0, 1);\n        this._convert_part_to_latlon(1, 10);\n        this._convert_part_to_latlon(2, 10 * 24);\n        this._convert_part_to_latlon(3, 10 * 24 * 10);\n        this._convert_part_to_latlon(4, 10 * 24 * 10 * 24);\n    }\n\n    get locator(){\n        this._locator = '';\n        this.__lat = this.lat + 90.0;\n        this.__lon = this.lon + 180.0;\n        this.__precision = this.precision;\n\n\n        this._calculate_field();\n        this._calculate_values();\n\n        return this._locator;\n    }\n\n    _compass_bearing(heading) {\n        if (heading >= 0 && heading <= 360){\n            var compassBearings = [\n                {\"label\": \"N\", \"start\": 0, \"end\": 11},\n                {\"label\": \"NNE\", \"start\": 11, \"end\": 33},\n                {\"label\": \"NE\", \"start\": 34, \"end\": 56},\n                {\"label\": \"ENE\", \"start\": 57, \"end\": 78},\n                {\"label\": \"E\", \"start\": 79, \"end\": 101},\n                {\"label\": \"ESE\", \"start\": 102, \"end\": 123},\n                {\"label\": \"SE\", \"start\": 124, \"end\": 146},\n                {\"label\": \"SSE\", \"start\": 147, \"end\": 168},\n                {\"label\": \"S\", \"start\": 169, \"end\": 191},\n                {\"label\": \"SSW\", \"start\": 192, \"end\": 213},\n                {\"label\": \"SW\", \"start\": 214, \"end\": 236},\n                {\"label\": \"WSW\", \"start\": 237, \"end\": 258},\n                {\"label\": \"W\", \"start\":\t259, \"end\": 281},\n                {\"label\": \"WNW\", \"start\": 282, \"end\": 303},\n                {\"label\": \"NW\", \"start\": 304, \"end\": 326},\n                {\"label\": \"NNW\", \"start\": 327, \"end\": 348},\n                {\"label\": \"N\", \"start\": 349, \"end\": 360}\n            ];\n\n            var result = compassBearings.find(function (element, index, array) {\n                if (heading > element.start && heading < element.end) {\n                    return true;\n                }\n                return false;\n            });\n\n            return result ? result.label : '';\n        }\n    }\n\n    _deg_to_rad(deg) {\n        return deg / 180 * Math.PI;\n    }\n\n    _rad_to_deg(rad) {\n        return rad / Math.PI * 180;\n    }\n\n    _pad_locator(){\n        var length = this._locator.length / 2 ;\n\n        while (length < 5) {\n            if ((length%2) == 1) {\n                this._locator += '55';\n            }\n            else {\n                this._locator += 'LL';\n            }\n\n            length = this._locator.length / 2;\n        }\n    }\n\n    _range_check(target, range, pos) {\n        pos = Number(pos);\n        if (pos < -range || pos > range){\n            throw target + \" must be between -\" + range + \" and +\" + range;\n        }\n\n        return pos;\n    }\n\n    _convert_part_to_latlon(counter, divisor) {\n        var grid_lon = this._locator.substr(counter*2, 1);\n        var grid_lat = this._locator.substr(counter*2+1, 1);\n\n        this._lat += this._l2n(grid_lat) * 10.0 / divisor;\n        this._lon += this._l2n(grid_lon) * 20.0 / divisor;\n    }\n\n    _calculate_field(){\n        this.__lat = (this.__lat/10) + 0.0000001;\n        this.__lon = (this.__lon/20) + 0.0000001;\n        this._locator += this._n2l(Math.floor(this.__lon)).toUpperCase() + this._n2l(Math.floor(this.__lat)).toUpperCase();\n        this.__precision -= 1;\n    }\n\n    _calculate_values(){\n        for (let counter=0; counter < this.__precision;counter++) {\n            if((counter%2) == 0) {\n                this._compute_locator(counter, 10);\n            } else {\n                this._compute_locator(counter, 24);\n            }\n        }\n    }\n\n    _compute_locator(counter, divisor){\n        this.__lat = (this.__lat - Math.floor(this.__lat)) * divisor;\n        this.__lon = (this.__lon - Math.floor(this.__lon)) * divisor;\n\n        if ((counter%2) == 0) {\n            this._locator += \"\" + Math.floor(this.__lon) + \"\" + Math.floor(this.__lat)\n        } else {\n            this._locator += this._n2l(Math.floor(this.__lon)) + this._n2l(Math.floor(this.__lat))\n        }\n    }\n\n    _l2n(letter){\n        if (letter.match(/[0-9]+/)) {\n            return parseInt(letter);\n        }else{\n            return letter.toLowerCase().charCodeAt(0) - 97;\n        }\n\n    }\n    _n2l(number){\n        return String.fromCharCode(97 + number);\n    }\n}\n\n// Extract Maidenhead & Callsign from CQ Call:\n//let splitCopy = msg.payload.copy.split(\" \")\n//msg.payload.Maidenhead = splitCopy.pop();\n//msg.payload.callsign = splitCopy.pop();\n\n// Extract Latitute & Longitude from Maidenhead:\nmsg.payload.location = Maidenhead.toLatLon(msg.payload.Maidenhead);\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1350,
+        "y": 1080,
+        "wires": [
+            [
+                "dede6a21df541b1d"
+            ]
+        ]
+    },
+    {
+        "id": "b8f62473379e71df",
+        "type": "udp out",
+        "z": "8b54ee4c.ea65c",
+        "g": "254eac17e94fc317",
+        "name": "Multicast SA",
+        "addr": "239.2.3.1",
+        "iface": "",
+        "port": "6969",
+        "ipv": "udp4",
+        "outport": "",
+        "base64": false,
+        "multicast": "false",
+        "x": 2150,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "68953fb3e90a1761",
+        "type": "udp out",
+        "z": "8b54ee4c.ea65c",
+        "g": "254eac17e94fc317",
+        "name": "Multicast Chat",
+        "addr": "224.10.10.1",
+        "iface": "",
+        "port": "17012",
+        "ipv": "udp4",
+        "outport": "",
+        "base64": false,
+        "multicast": "false",
+        "x": 2160,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "520d7c534c5146c8",
+        "type": "link in",
+        "z": "8b54ee4c.ea65c",
+        "g": "254eac17e94fc317",
+        "name": "Send Multicast SA",
+        "links": [
+            "b06c793abd4cb6c5",
+            "da5fca12cd52d24d",
+            "ede570fd6fec4f3c",
+            "9a8fef750361e618"
+        ],
+        "x": 2035,
+        "y": 1020,
+        "wires": [
+            [
+                "b8f62473379e71df"
+            ]
+        ]
+    },
+    {
+        "id": "ce2290e97c4b972a",
+        "type": "link in",
+        "z": "8b54ee4c.ea65c",
+        "g": "254eac17e94fc317",
+        "name": "Send Multicast Chat",
+        "links": [
+            "1f118938943677a0"
+        ],
+        "x": 2035,
+        "y": 1060,
+        "wires": [
+            [
+                "68953fb3e90a1761"
+            ]
+        ]
+    },
+    {
+        "id": "1f118938943677a0",
+        "type": "link out",
+        "z": "8b54ee4c.ea65c",
+        "g": "f5dc25f9.a5649",
+        "name": "Multicast Geochat",
+        "mode": "link",
+        "links": [
+            "ce2290e97c4b972a"
+        ],
+        "x": 2395,
+        "y": 1480,
+        "wires": []
+    },
+    {
+        "id": "b06c793abd4cb6c5",
+        "type": "link out",
+        "z": "8b54ee4c.ea65c",
+        "g": "d8f5bb9088f1ce55",
+        "name": "Position SA",
+        "mode": "link",
+        "links": [
+            "520d7c534c5146c8"
+        ],
+        "x": 1775,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "dede6a21df541b1d",
+        "type": "function",
+        "z": "8b54ee4c.ea65c",
+        "g": "d8f5bb9088f1ce55",
+        "name": "CoT",
+        "func": "const dt = Date.now();\nconst dtD = new Date(dt);\nconst dtD5 = new Date(dt + 14400000);\n\nmsg.payload = {\n    \"event\": {\n        \"$\": { \n            \"version\":\"2.0\",\n            \"type\":\"a-\"+`${msg.payload.milstd_type}`,\n            \"uid\":`${msg.payload.uid}`,\n            \"time\":dtD.toISOString(),\n            \"start\":dtD.toISOString(),\n            \"stale\":dtD5.toISOString(),\n            \"how\":\"h-g-i-g-o\"\n\n        },\n        \"detail\": [\n            {\n                \"contact\": [\n                    {\n                        \"$\": {\n                            \"callsign\":`${msg.payload.callsign}`\n                        }\n                    }],\n                \"ce_human_input\":\"true\",\n                \"remarks\":\"\",\n                \"link\": [\n                    {\n                        \"$\": {\n                            \"uid\":\"80085\",\n                            \"production_time\":dtD.toISOString(),\n                            \"type\":\"a-f-G-U-U-S-R\",\n                            \"parent_callsign\":\"BOBTAK\",\n                            \"relation\":\"p-p\"\n                        }\n                    }],\n                \"precisionlocation\": [\n                    {\n                        \"$\": {\n                            \"geopointsrc\":\"USER\"\n                        }\n                    }]\n            }],\n        \"point\": [ \n            { \n                \"$\": { \n                    \"lat\": `${msg.payload.location[0]}`, \n                    \"lon\": `${msg.payload.location[1]}`, \n                    \"hae\": \"9999999.0\", \n                    \"ce\": \"35.0\", \n                    \"le\": \"9999999.0\"\n                }\n                \n            }\n        ]\n    }\n    \n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1530,
+        "y": 1080,
+        "wires": [
+            [
+                "abf171300f0f917b"
+            ]
+        ]
+    },
+    {
+        "id": "abf171300f0f917b",
+        "type": "xml",
+        "z": "8b54ee4c.ea65c",
+        "g": "d8f5bb9088f1ce55",
+        "name": "",
+        "property": "payload",
+        "attr": "",
+        "chr": "",
+        "x": 1670,
+        "y": 1080,
+        "wires": [
+            [
+                "b06c793abd4cb6c5"
+            ]
+        ]
+    },
+    {
+        "id": "aa10e03fca25dfa5",
+        "type": "split",
+        "z": "8b54ee4c.ea65c",
+        "g": "4293e1e285423ebc",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "x": 1050,
+        "y": 1000,
+        "wires": [
+            [
+                "1b8a82de050726b5"
+            ]
+        ]
+    },
+    {
+        "id": "1b8a82de050726b5",
+        "type": "switch",
+        "z": "8b54ee4c.ea65c",
+        "g": "4293e1e285423ebc",
+        "name": "",
+        "property": "parts.index",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "3",
+                "vt": "num"
+            },
+            {
+                "t": "neq",
+                "v": "3",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1170,
+        "y": 1000,
+        "wires": [
+            [
+                "b62bd9ddec8c5ed5"
+            ],
+            [
+                "b6837bc29c229ca2"
+            ]
+        ]
+    },
+    {
+        "id": "b62bd9ddec8c5ed5",
+        "type": "split",
+        "z": "8b54ee4c.ea65c",
+        "g": "4293e1e285423ebc",
+        "name": "",
+        "splt": "-",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "x": 1290,
+        "y": 980,
+        "wires": [
+            [
+                "563cedc7709d7e67"
+            ]
+        ]
+    },
+    {
+        "id": "563cedc7709d7e67",
+        "type": "switch",
+        "z": "8b54ee4c.ea65c",
+        "g": "4293e1e285423ebc",
+        "name": "",
+        "property": "parts.index",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "str"
+            },
+            {
+                "t": "neq",
+                "v": "0",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1410,
+        "y": 980,
+        "wires": [
+            [
+                "5226d5209bd8e64a"
+            ],
+            [
+                "15020e8ad2052312"
+            ]
+        ]
+    },
+    {
+        "id": "5226d5209bd8e64a",
+        "type": "change",
+        "z": "8b54ee4c.ea65c",
+        "g": "4293e1e285423ebc",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$lowercase(payload)\t",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1560,
+        "y": 960,
+        "wires": [
+            [
+                "15020e8ad2052312"
+            ]
+        ]
+    },
+    {
+        "id": "15020e8ad2052312",
+        "type": "join",
+        "z": "8b54ee4c.ea65c",
+        "g": "4293e1e285423ebc",
+        "name": "",
+        "mode": "auto",
+        "build": "string",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "-",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "",
+        "count": "",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 1710,
+        "y": 980,
+        "wires": [
+            [
+                "b6837bc29c229ca2"
+            ]
+        ]
+    },
+    {
+        "id": "b6837bc29c229ca2",
+        "type": "join",
+        "z": "8b54ee4c.ea65c",
+        "g": "4293e1e285423ebc",
+        "name": "",
+        "mode": "auto",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": "false",
+        "timeout": "",
+        "count": "",
+        "reduceRight": false,
+        "x": 1830,
+        "y": 1000,
+        "wires": [
+            [
+                "b50af0dc.c23678"
+            ]
+        ]
+    },
+    {
+        "id": "0298b40d237dc9a4",
+        "type": "comment",
+        "z": "8b54ee4c.ea65c",
+        "g": "d8f5bb9088f1ce55",
+        "name": "Format",
+        "info": "1,callsign,uid,2525B_type,maidenhead",
+        "x": 1310,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "678989a8ec1cd08b",
+        "type": "udp in",
+        "z": "8b54ee4c.ea65c",
+        "name": "Capture Chat",
+        "iface": "",
+        "port": "17012",
+        "ipv": "udp4",
+        "multicast": "true",
+        "group": "224.10.10.1",
+        "datatype": "utf8",
+        "x": 2090,
+        "y": 900,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3dd3083e1eb7121c",
+        "type": "change",
+        "z": "8b54ee4c.ea65c",
+        "g": "f5dc25f9.a5649",
+        "name": "Random UID",
+        "rules": [
+            {
+                "t": "set",
+                "p": "chatuid",
+                "pt": "msg",
+                "to": "$random() * 100000000000000000\t",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1990,
+        "y": 1420,
+        "wires": [
+            [
+                "f45ca8af34c2c8d5"
+            ]
+        ]
+    },
+    {
+        "id": "3dd3b19243ce47d9",
+        "type": "comment",
+        "z": "8b54ee4c.ea65c",
+        "g": "f5dc25f9.a5649",
+        "name": "Format",
+        "info": "3,callsign,chat_text",
+        "x": 1410,
+        "y": 1320,
+        "wires": []
+    },
+    {
+        "id": "12834b2af9c8aeef",
+        "type": "change",
+        "z": "8b54ee4c.ea65c",
+        "g": "f5dc25f9.a5649",
+        "name": "Apply callsign",
+        "rules": [
+            {
+                "t": "set",
+                "p": "parts.count",
+                "pt": "msg",
+                "to": "2",
+                "tot": "num"
+            },
+            {
+                "t": "set",
+                "p": "parts.len",
+                "pt": "msg",
+                "to": "1",
+                "tot": "num"
+            },
+            {
+                "t": "set",
+                "p": "parts.index",
+                "pt": "msg",
+                "to": "1",
+                "tot": "num"
+            },
+            {
+                "t": "set",
+                "p": "parts.id",
+                "pt": "msg",
+                "to": "9001",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1440,
+        "y": 1360,
+        "wires": [
+            [
+                "ce134ad32cfaa1b6"
+            ]
+        ]
+    },
+    {
+        "id": "728e884ee8f0fbdd",
+        "type": "change",
+        "z": "8b54ee4c.ea65c",
+        "g": "f5dc25f9.a5649",
+        "name": "Apply msg text",
+        "rules": [
+            {
+                "t": "set",
+                "p": "parts.count",
+                "pt": "msg",
+                "to": "2",
+                "tot": "num"
+            },
+            {
+                "t": "set",
+                "p": "parts.len",
+                "pt": "msg",
+                "to": "1",
+                "tot": "num"
+            },
+            {
+                "t": "set",
+                "p": "parts.index",
+                "pt": "msg",
+                "to": "0",
+                "tot": "num"
+            },
+            {
+                "t": "set",
+                "p": "parts.id",
+                "pt": "msg",
+                "to": "9001",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "parts.type",
+                "pt": "msg",
+                "to": "array",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1780,
+        "y": 1400,
+        "wires": [
+            [
+                "ce134ad32cfaa1b6"
+            ]
+        ]
+    },
+    {
+        "id": "ce134ad32cfaa1b6",
+        "type": "join",
+        "z": "8b54ee4c.ea65c",
+        "g": "f5dc25f9.a5649",
+        "name": "",
+        "mode": "custom",
+        "build": "array",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "1",
+        "count": "2",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 1950,
+        "y": 1360,
+        "wires": [
+            [
+                "3dd3083e1eb7121c"
+            ]
+        ]
+    },
+    {
+        "id": "f45ca8af34c2c8d5",
+        "type": "function",
+        "z": "8b54ee4c.ea65c",
+        "g": "f5dc25f9.a5649",
+        "name": "Geochat CoT",
+        "func": "const dt = Date.now();\nconst dtD = new Date(dt);\nconst dtD5 = new Date(dt + 14400000);\n\nmsg.payload = {\n    \"event\":{\n        \"$\":{\n            \"version\":\"2.0\",\n            \"uid\":`${msg.chatuid}`,\n            \"type\":\"b-t-f\",\n            \"time\":dtD.toISOString(),\n            \"start\":dtD.toISOString(),\n            \"stale\":dtD5.toISOString(),\n            \"how\":\"h-g-i-g-o\"},\n            \"point\":[{\n                \"$\":{\n                    \"lat\":\"-0.004287826538927404\",\n                    \"lon\":\"-0.0076812372022802555\",\n                    \"hae\":\"9999999.0\",\n                    \"ce\":\"9999999.0\",\n                    \"le\":\"9999999.0\"\n                }\n                \n            }],\n            \"detail\":[{\n                \"__chat\":[{\n                    \"$\":{\n                        \"senderCallsign\":\"BobTAK\",\n                        \"chatroom\":\"All Chat Rooms\",\n                        \"groupOwner\":\"false\",\n                        \"id\":\"All Chat Rooms\",\n                        \"parent\":\"RootContactGroup\"\n                        \n                    },\n                    \"chatgrp\":[{\n                        \"$\":{\n                            \"uid0\":\"BobTAK-uid\",\n                            \"uid1\":\"All Chat Rooms\",\n                            \"id\":\"All Chat Rooms\"\n                                \n                        }\n                            \n                    }]\n                    \n                }],\n                \"link\":[{\n                    \"$\":{\n                        \"relation\":\"p-p\",\n                        \"type\":\"a-f-G-U-C\",\n                        \"uid\":\"BobTAK-uid\"\n                        \n                    }\n                    \n                }],\n                \"remarks\":[{\n                    \"_\":`${msg.payload[0]}` + \": \" + `${msg.payload[1]}`,\n                    \"$\":{\n                        \"time\":dtD.toISOString(),\n                        \"to\":\"All Chat Rooms\",\n                        \"source\":\"BAO.F.ATAK.BobTAK-uid\"\n                        \n                    }\n                    \n                }],\n                \"__serverdestination\":[{\n                    \"$\":{\n                        \"destinations\":\"224.10.10.2:17012:udp:BobTAK-uid\"\n                        \n                    }\n                    \n                }]\n                \n            }]\n        \n    }\n    \n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1990,
+        "y": 1460,
+        "wires": [
+            [
+                "7fce549521b78999",
+                "e6a87d2348ce4cc1"
+            ]
+        ]
+    },
+    {
+        "id": "e779a5deb9dbe464",
+        "type": "xml",
+        "z": "8b54ee4c.ea65c",
+        "g": "f5dc25f9.a5649",
+        "name": "",
+        "property": "payload",
+        "attr": "",
+        "chr": "",
+        "x": 2310,
+        "y": 1460,
+        "wires": [
+            [
+                "1f118938943677a0"
+            ]
+        ]
+    },
+    {
+        "id": "e6a87d2348ce4cc1",
+        "type": "delay",
+        "z": "8b54ee4c.ea65c",
+        "g": "f5dc25f9.a5649",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 2180,
+        "y": 1460,
+        "wires": [
+            [
+                "e779a5deb9dbe464"
+            ]
+        ]
+    },
+    {
+        "id": "7fce549521b78999",
+        "type": "trigger",
+        "z": "8b54ee4c.ea65c",
+        "g": "f5dc25f9.a5649",
+        "name": "BobTAK Announce",
+        "op1": "<?xml version='1.0' encoding='UTF-8' standalone='yes'?><event version='2.0' uid='47416513186038506' type='b-t-f' time='2021-11-29T18:11:03.516Z' start='2021-11-29T18:11:03.516Z' stale='2021-12-09T18:11:03.516Z' how='h-g-i-g-o'><point lat='-0.004287826538927404' lon='-0.0076812372022802555' hae='9999999.0' ce='9999999.0' le='9999999.0' /><detail><__chat senderCallsign='BobTAK' chatroom='All Chat Rooms' groupOwner='false' id='All Chat Rooms' parent='RootContactGroup'><chatgrp uid0='BobTAK-uid' uid1='All Chat Rooms' id='All Chat Rooms'/></__chat><link relation='p-p' type='a-f-G-U-C' uid='BobTAK-uid'/><remarks time='2021-11-29T18:11:03.516Z' to='All Chat Rooms' source='BAO.F.ATAK.BobTAK-uid'> </remarks><__serverdestination destinations='224.10.10.2:17012:udp:BobTAK-uid'/></detail></event>",
+        "op2": "",
+        "op1type": "str",
+        "op2type": "str",
+        "duration": "250",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "ms",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 2,
+        "x": 2010,
+        "y": 1500,
+        "wires": [
+            [
+                "1f118938943677a0"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "da5fca12cd52d24d",
+        "type": "link out",
+        "z": "8b54ee4c.ea65c",
+        "name": "JS8call HB Spot",
+        "mode": "link",
+        "links": [
+            "520d7c534c5146c8"
+        ],
+        "x": 1415,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "aea55b67a996e318",
+        "type": "change",
+        "z": "8b54ee4c.ea65c",
+        "name": "Rename values",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.uid",
+                "pt": "msg",
+                "to": "payload.vala",
+                "tot": "msg"
+            },
+            {
+                "t": "move",
+                "p": "payload.valc",
+                "pt": "msg",
+                "to": "payload.maidenhead",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload.milstd_type",
+                "pt": "msg",
+                "to": "payload.valb",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 640,
+        "y": 60,
+        "wires": [
+            [
+                "91a7cf7419b1675f"
+            ]
+        ]
+    },
+    {
+        "id": "42b657d9ab690799",
+        "type": "inject",
+        "z": "8b54ee4c.ea65c",
+        "name": "Test Geochat",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "3,callsign,geochat message",
+        "payloadType": "str",
+        "x": 130,
+        "y": 80,
+        "wires": [
+            [
+                "4ba8c5b6928e2bc7"
+            ]
+        ]
+    },
+    {
+        "id": "7d7a9a497dad54f2",
+        "type": "udp in",
+        "z": "8b54ee4c.ea65c",
+        "name": "Capture PLI",
+        "iface": "",
+        "port": "6969",
+        "ipv": "udp4",
+        "multicast": "true",
+        "group": "239.2.3.1",
+        "datatype": "utf8",
+        "x": 2090,
+        "y": 860,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "be332f3baeb7b7f6",
+        "type": "function",
+        "z": "8b54ee4c.ea65c",
+        "name": "Make geochat message",
+        "func": "const txdata = \"3,\" + msg.payload.callsign+\",\"+msg.payload.msg\n\nmsg.payload = {\n    type:\"TX.SEND_MESSAGE\",value:\"@BOBTAK \"+txdata\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 870,
+        "y": 100,
+        "wires": [
+            [
+                "f714786d9a30b660"
+            ]
+        ]
+    },
+    {
+        "id": "b14ee3af7d3924a1",
+        "type": "change",
+        "z": "8b54ee4c.ea65c",
+        "name": "Rename values",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload.vala",
+                "pt": "msg",
+                "to": "payload.msg",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 640,
+        "y": 100,
+        "wires": [
+            [
+                "be332f3baeb7b7f6"
+            ]
+        ]
+    },
+    {
+        "id": "c718df7ee7a9ffeb",
+        "type": "switch",
+        "z": "8b54ee4c.ea65c",
+        "name": "Split if PING",
+        "property": "payload.type",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "neq",
+                "v": "PING",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "PING",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 630,
+        "y": 360,
+        "wires": [
+            [
+                "912da804.97fd"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "9c778c79dabd638a",
+        "type": "change",
+        "z": "8b54ee4c.ea65c",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.Maidenhead",
+                "pt": "msg",
+                "to": "payload.params.GRID",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload.callsign",
+                "pt": "msg",
+                "to": "payload.params.FROM",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 160,
+        "y": 840,
+        "wires": [
+            [
+                "d1fa4945.716b4",
+                "57a45ea62ac15ab6"
+            ]
+        ]
+    },
+    {
+        "id": "57a45ea62ac15ab6",
+        "type": "switch",
+        "z": "8b54ee4c.ea65c",
+        "name": "JS8call Group",
+        "property": "payload.params.TO",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "@BOBTAK",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 180,
+        "y": 900,
+        "wires": [
+            [
+                "ead3cd41.5cee1"
+            ]
+        ]
+    },
+    {
+        "id": "80ef503301041999",
+        "type": "split",
+        "z": "8b54ee4c.ea65c",
+        "g": "6b96f7fd166dd3d7",
+        "name": "",
+        "splt": " ",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "x": 330,
+        "y": 1680,
+        "wires": [
+            [
+                "c28984d8e24352c0"
+            ]
+        ]
+    },
+    {
+        "id": "c28984d8e24352c0",
+        "type": "switch",
+        "z": "8b54ee4c.ea65c",
+        "g": "6b96f7fd166dd3d7",
+        "name": "Split away callsigns",
+        "property": "parts.index",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "lt",
+                "v": "2",
+                "vt": "str"
+            },
+            {
+                "t": "gt",
+                "v": "2",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 490,
+        "y": 1680,
+        "wires": [
+            [],
+            [
+                "4099e26f3839f67e"
+            ]
+        ]
+    },
+    {
+        "id": "93088c0f80eebb1e",
+        "type": "change",
+        "z": "8b54ee4c.ea65c",
+        "g": "6b96f7fd166dd3d7",
+        "name": "Renumber index",
+        "rules": [
+            {
+                "t": "set",
+                "p": "parts.index",
+                "pt": "msg",
+                "to": "msg.parts.index - 3",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "parts.count",
+                "pt": "msg",
+                "to": "msg.parts.count -5",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 860,
+        "y": 1680,
+        "wires": [
+            [
+                "bb3d0b05206f172b"
+            ]
+        ]
+    },
+    {
+        "id": "bb3d0b05206f172b",
+        "type": "join",
+        "z": "8b54ee4c.ea65c",
+        "g": "6b96f7fd166dd3d7",
+        "name": "",
+        "mode": "auto",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": "false",
+        "timeout": "",
+        "count": "",
+        "reduceRight": false,
+        "x": 1010,
+        "y": 1680,
+        "wires": [
+            [
+                "c2e55.f8fc49ab"
+            ]
+        ]
+    },
+    {
+        "id": "4099e26f3839f67e",
+        "type": "switch",
+        "z": "8b54ee4c.ea65c",
+        "g": "6b96f7fd166dd3d7",
+        "name": "Split off arrow",
+        "property": "parts.index",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "lt",
+                "v": "msg.parts.count - 2",
+                "vt": "jsonata"
+            },
+            {
+                "t": "gte",
+                "v": "msg.parts.count - 2",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 680,
+        "y": 1720,
+        "wires": [
+            [
+                "93088c0f80eebb1e"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "fb9552cb39033b58",
+        "type": "inject",
+        "z": "8b54ee4c.ea65c",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "60",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.5",
+        "topic": "",
+        "payloadType": "date",
+        "x": 1790,
+        "y": 40,
+        "wires": [
+            [
+                "d439cf1a69d11156"
+            ]
+        ]
+    },
+    {
+        "id": "d439cf1a69d11156",
+        "type": "change",
+        "z": "8b54ee4c.ea65c",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "mycallsign",
+                "pt": "global",
+                "to": "HFRadio1",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1990,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d1d20e3c1c32b38e",
+        "type": "debug",
+        "z": "8b54ee4c.ea65c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 3010,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "f9eae50c7b799d58",
+        "type": "debug",
+        "z": "8b54ee4c.ea65c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 910,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "31ab88177f59f02b",
+        "type": "xml",
+        "z": "8b54ee4c.ea65c",
+        "name": "",
+        "property": "payload",
+        "attr": "",
+        "chr": "",
+        "x": 330,
+        "y": 260,
+        "wires": [
+            [
+                "18463d088448ef95",
+                "777983a825b2d3aa",
+                "2c6209d9e5d7347b"
+            ]
+        ]
+    },
+    {
+        "id": "18463d088448ef95",
+        "type": "switch",
+        "z": "8b54ee4c.ea65c",
+        "name": "Check transmitter PLI",
+        "property": "payload.event.bobtak[0].$.transmitter",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "mycallsign",
+                "vt": "flow"
+            },
+            {
+                "t": "neq",
+                "v": "mycallsign",
+                "vt": "flow"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 500,
+        "y": 260,
+        "wires": [
+            [
+                "3ee3bfab8dec72f4"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "7acee02aeb38e2bd",
+        "type": "switch",
+        "z": "8b54ee4c.ea65c",
+        "name": "Detect CoT Type",
+        "property": "payload.event.$.type",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "regex",
+                "v": "a-*",
+                "vt": "str",
+                "case": false
+            },
+            {
+                "t": "eq",
+                "v": "b-m-p-s-m",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "self",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 4,
+        "x": 1110,
+        "y": 380,
+        "wires": [
+            [
+                "f91d86aad6f21218"
+            ],
+            [
+                "643411502d43d581"
+            ],
+            [
+                "49dc9cd640d1dad4"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "777983a825b2d3aa",
+        "type": "debug",
+        "z": "8b54ee4c.ea65c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 450,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "e52d0a89e4d81ad1",
+        "type": "debug",
+        "z": "8b54ee4c.ea65c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 3270,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "3ee3bfab8dec72f4",
+        "type": "switch",
+        "z": "8b54ee4c.ea65c",
+        "name": "Detect geochat",
+        "property": "payload.bobtak.$.type",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "geochat",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 620,
+        "y": 200,
+        "wires": [
+            [
+                "ac378ea83991dd91"
+            ],
+            [
+                "aad957459ddb8fb7"
+            ]
+        ]
+    },
+    {
+        "id": "bbf1ff98e671e6e5",
+        "type": "function",
+        "z": "8b54ee4c.ea65c",
+        "name": "Make geochat message",
+        "func": "const txdata = msg.payload.JS8callgroup + \" 3,\" + msg.payload.bobtak.$.callsign + \",\" + msg.payload.bobtak.$.text\n\nmsg.payload = {\n    type: \"TX.SEND_MESSAGE\", value: txdata\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1130,
+        "y": 200,
+        "wires": [
+            [
+                "f714786d9a30b660"
+            ]
+        ]
+    },
+    {
+        "id": "2c6209d9e5d7347b",
+        "type": "switch",
+        "z": "8b54ee4c.ea65c",
+        "name": "Check transmitter geochat",
+        "property": "payload.bobtak.$.transmitter",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "mycallsign",
+                "vt": "flow"
+            },
+            {
+                "t": "neq",
+                "v": "mycallsign",
+                "vt": "flow"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 510,
+        "y": 300,
+        "wires": [
+            [
+                "3ee3bfab8dec72f4"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "aad957459ddb8fb7",
+        "type": "switch",
+        "z": "8b54ee4c.ea65c",
+        "name": "Detect PLI",
+        "property": "payload.event.bobtak[0].$.type",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "pli",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 730,
+        "y": 240,
+        "wires": [
+            [
+                "01db7a011770e39f"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "65a1ddd1b49e0772",
+        "type": "change",
+        "z": "8b54ee4c.ea65c",
+        "g": "5ec0d079efd20beb",
+        "name": "",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload_orig",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload_orig.value",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 240,
+        "y": 1940,
+        "wires": [
+            [
+                "c0308c2c6ae10a1a"
+            ]
+        ]
+    },
+    {
+        "id": "c0308c2c6ae10a1a",
+        "type": "split",
+        "z": "8b54ee4c.ea65c",
+        "g": "5ec0d079efd20beb",
+        "name": "",
+        "splt": " ",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "x": 390,
+        "y": 1940,
+        "wires": [
+            [
+                "501769a9dfd19495"
+            ]
+        ]
+    },
+    {
+        "id": "501769a9dfd19495",
+        "type": "switch",
+        "z": "8b54ee4c.ea65c",
+        "g": "5ec0d079efd20beb",
+        "name": "Split away callsigns",
+        "property": "parts.index",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 550,
+        "y": 1940,
+        "wires": [
+            [],
+            [
+                "8143a92a8e362b1d"
+            ]
+        ]
+    },
+    {
+        "id": "38f69ab9b13da07e",
+        "type": "join",
+        "z": "8b54ee4c.ea65c",
+        "g": "5ec0d079efd20beb",
+        "name": "",
+        "mode": "auto",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": "false",
+        "timeout": "",
+        "count": "",
+        "reduceRight": false,
+        "x": 890,
+        "y": 1940,
+        "wires": [
+            [
+                "37b3df945dc35c96"
+            ]
+        ]
+    },
+    {
+        "id": "8143a92a8e362b1d",
+        "type": "change",
+        "z": "8b54ee4c.ea65c",
+        "g": "5ec0d079efd20beb",
+        "name": "Renumber index",
+        "rules": [
+            {
+                "t": "set",
+                "p": "parts.index",
+                "pt": "msg",
+                "to": "msg.parts.index - 1",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "parts.count",
+                "pt": "msg",
+                "to": "msg.parts.count -1",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 740,
+        "y": 1940,
+        "wires": [
+            [
+                "38f69ab9b13da07e"
+            ]
+        ]
+    },
+    {
+        "id": "75125c7085f21e84",
+        "type": "link in",
+        "z": "8b54ee4c.ea65c",
+        "g": "5ec0d079efd20beb",
+        "name": "",
+        "links": [
+            "b78eba0f6880482b"
+        ],
+        "x": 115,
+        "y": 1940,
+        "wires": [
+            [
+                "65a1ddd1b49e0772"
+            ]
+        ]
+    },
+    {
+        "id": "37b3df945dc35c96",
+        "type": "link out",
+        "z": "8b54ee4c.ea65c",
+        "g": "5ec0d079efd20beb",
+        "name": "",
+        "mode": "link",
+        "links": [
+            "69cf7a5aa3cc1bc7"
+        ],
+        "x": 975,
+        "y": 1940,
+        "wires": []
+    },
+    {
+        "id": "69cf7a5aa3cc1bc7",
+        "type": "link in",
+        "z": "8b54ee4c.ea65c",
+        "name": "",
+        "links": [
+            "37b3df945dc35c96"
+        ],
+        "x": 515,
+        "y": 940,
+        "wires": [
+            [
+                "c2e55.f8fc49ab"
+            ]
+        ]
+    },
+    {
+        "id": "b78eba0f6880482b",
+        "type": "link out",
+        "z": "8b54ee4c.ea65c",
+        "name": "",
+        "mode": "link",
+        "links": [
+            "75125c7085f21e84"
+        ],
+        "x": 175,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "82caa97e934cd247",
+        "type": "change",
+        "z": "8b54ee4c.ea65c",
+        "g": "6b96f7fd166dd3d7",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "data.callsign",
+                "pt": "msg",
+                "to": "payload.params.FROM",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "data.snr",
+                "pt": "msg",
+                "to": "payload.params.SNR",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "data.to",
+                "pt": "msg",
+                "to": "payload.params.TO",
+                "tot": "msg"
+            },
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload_orig",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload_orig.value",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 180,
+        "y": 1680,
+        "wires": [
+            [
+                "80ef503301041999"
+            ]
+        ]
+    },
+    {
+        "id": "1ab91bc8560a9188",
+        "type": "switch",
+        "z": "8b54ee4c.ea65c",
+        "g": "5b352d1787ba366a",
+        "name": "Detect JS8callgroup",
+        "property": "payload.bobtak.$.JS8callgroup",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "empty"
+            },
+            {
+                "t": "nempty"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 2340,
+        "y": 120,
+        "wires": [
+            [
+                "ed5a3b3863b5385b"
+            ],
+            [
+                "89cd6073df0b8d32"
+            ]
+        ]
+    },
+    {
+        "id": "ed5a3b3863b5385b",
+        "type": "change",
+        "z": "8b54ee4c.ea65c",
+        "g": "5b352d1787ba366a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.JS8callgroup",
+                "pt": "msg",
+                "to": "@BOBTAK",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2590,
+        "y": 100,
+        "wires": [
+            [
+                "eb1f747bead120a5"
+            ]
+        ]
+    },
+    {
+        "id": "89cd6073df0b8d32",
+        "type": "change",
+        "z": "8b54ee4c.ea65c",
+        "g": "5b352d1787ba366a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.JS8callgroup",
+                "pt": "msg",
+                "to": "payload.bobtak.$.JS8callgroup",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2590,
+        "y": 140,
+        "wires": [
+            [
+                "eb1f747bead120a5"
+            ]
+        ]
+    },
+    {
+        "id": "536eb58a44e4fc48",
+        "type": "link in",
+        "z": "8b54ee4c.ea65c",
+        "g": "5b352d1787ba366a",
+        "name": "TX Config geochat JS8callgroup",
+        "links": [],
+        "x": 2195,
+        "y": 120,
+        "wires": [
+            [
+                "1ab91bc8560a9188"
+            ]
+        ]
+    },
+    {
+        "id": "eb1f747bead120a5",
+        "type": "link out",
+        "z": "8b54ee4c.ea65c",
+        "g": "5b352d1787ba366a",
+        "name": "TX Configured Geochat JS8callgroup",
+        "mode": "return",
+        "links": [],
+        "x": 2755,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "755b419c2bebddd5",
+        "type": "switch",
+        "z": "8b54ee4c.ea65c",
+        "g": "4f0ebd4782d45849",
+        "name": "Detect JS8callgroup",
+        "property": "payload.event.bobtak[0].$.JS8callgroup",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "empty"
+            },
+            {
+                "t": "nempty"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 2340,
+        "y": 260,
+        "wires": [
+            [
+                "e4d8ea31a3950453"
+            ],
+            [
+                "4779f53da636c316"
+            ]
+        ]
+    },
+    {
+        "id": "e4d8ea31a3950453",
+        "type": "change",
+        "z": "8b54ee4c.ea65c",
+        "g": "4f0ebd4782d45849",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.JS8callgroup",
+                "pt": "msg",
+                "to": "@BOBTAK",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2590,
+        "y": 240,
+        "wires": [
+            [
+                "494b9a383961e724"
+            ]
+        ]
+    },
+    {
+        "id": "4779f53da636c316",
+        "type": "change",
+        "z": "8b54ee4c.ea65c",
+        "g": "4f0ebd4782d45849",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.JS8callgroup",
+                "pt": "msg",
+                "to": "payload.event.bobtak[0].$.JS8callgroup",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2590,
+        "y": 280,
+        "wires": [
+            [
+                "494b9a383961e724"
+            ]
+        ]
+    },
+    {
+        "id": "7d9a281b184ee894",
+        "type": "link in",
+        "z": "8b54ee4c.ea65c",
+        "g": "4f0ebd4782d45849",
+        "name": "TX Config PLI JS8callgroup",
+        "links": [],
+        "x": 2195,
+        "y": 260,
+        "wires": [
+            [
+                "755b419c2bebddd5"
+            ]
+        ]
+    },
+    {
+        "id": "494b9a383961e724",
+        "type": "link out",
+        "z": "8b54ee4c.ea65c",
+        "g": "4f0ebd4782d45849",
+        "name": "TX Configured PLI JS8callgroup",
+        "mode": "return",
+        "links": [],
+        "x": 2755,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "ac378ea83991dd91",
+        "type": "link call",
+        "z": "8b54ee4c.ea65c",
+        "name": "",
+        "links": [
+            "536eb58a44e4fc48"
+        ],
+        "timeout": "30",
+        "x": 870,
+        "y": 200,
+        "wires": [
+            [
+                "bbf1ff98e671e6e5"
+            ]
+        ]
+    },
+    {
+        "id": "67ecd27d65370b3a",
+        "type": "xml",
+        "z": "8b54ee4c.ea65c",
+        "name": "",
+        "property": "payload",
+        "attr": "",
+        "chr": "",
+        "x": 230,
+        "y": 200,
+        "wires": [
+            [
+                "3ee3bfab8dec72f4"
+            ]
+        ]
+    },
+    {
+        "id": "01db7a011770e39f",
+        "type": "change",
+        "z": "8b54ee4c.ea65c",
+        "name": "Rename values",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.uid",
+                "pt": "msg",
+                "to": "payload.event.$.uid",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload.lat",
+                "pt": "msg",
+                "to": "payload.event.point[0].$.lat",
+                "tot": "msg",
+                "dc": true
+            },
+            {
+                "t": "set",
+                "p": "payload.lon",
+                "pt": "msg",
+                "to": "payload.event.point[0].$.lon",
+                "tot": "msg",
+                "dc": true
+            },
+            {
+                "t": "set",
+                "p": "payload.callsign",
+                "pt": "msg",
+                "to": "payload.event.detail[0].contact[0].$.callsign",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload.uid",
+                "pt": "msg",
+                "to": "$substring(msg.payload.uid, $length(msg.payload.uid)-5, 5)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 920,
+        "y": 240,
+        "wires": [
+            [
+                "7acee02aeb38e2bd",
+                "f9eae50c7b799d58"
+            ]
+        ]
+    },
+    {
+        "id": "f91d86aad6f21218",
+        "type": "link out",
+        "z": "8b54ee4c.ea65c",
+        "g": "359c668394a8e40c",
+        "name": "To 2525C In",
+        "mode": "link",
+        "links": [
+            "32613f47cac9874a"
+        ],
+        "x": 1295,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "367e8f7477adf203",
+        "type": "function",
+        "z": "8b54ee4c.ea65c",
+        "g": "b0dff7256fa3aa44",
+        "name": "lat lon to maidenhead",
+        "func": "inlat = +msg.payload.lat\ninlon = +msg.payload.lon\n\nlonR1 = inlon + 180\nlatR1 = inlat + 90\n\nlon1 = Math.floor( lonR1 / 20 )\nlat1 = Math.floor( latR1 / 10 )\n\nlonR2 = lonR1 - ( lon1 * 20 )\nlatR2 = latR1 - ( lat1 * 10 )\n\nlon2 = Math.floor( lonR2 / 2 )\nlat2 = Math.floor( latR2 / 1 )\n\nlonR3 = lonR2 - ( lon2 * 2 )\nlatR3 = latR2 - ( lat2 * 1 )\n\nlon3 = Math.floor( lonR3 * 12 )\nlat3 = Math.floor( latR3 * 24 )\n\nlonR4 = lonR3 - ( lon3 / 12 )\nlatR4 = latR3 - ( lat3 / 24 )\n\nlon4 = Math.floor( lonR4 * 120 )\nlat4 = Math.floor( latR4 * 240 )\n\nlonR5 = lonR4 - ( lon4 / 120 )\nlatR5 = latR4 - ( lat4 / 240 )\n\nlon5 = Math.floor( lonR5 * 2880 )\nlat5 = Math.floor( latR5 * 5760 )\n\nfieldlon = String.fromCharCode( lon1 + 65 )\nfieldlat = String.fromCharCode( lat1 + 65 )\ngridlon = lon2\ngridlat = lat2\nsublon = String.fromCharCode( lon3 + 65 )\nsublat = String.fromCharCode( lat3 + 65 )\nextlon = lon4\nextlat = lat4\nsslon = String.fromCharCode( lon5 + 65 )\nsslat = String.fromCharCode( lat5 + 65 )\n\n//msg.payload.lon1 = lonR1\n//msg.payload.lon2 = latR1\nmsg.payload.maidenhead = fieldlon + fieldlat + gridlon + gridlat + sublon + sublat + extlon + extlat + sslon + sslat\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2340,
+        "y": 380,
+        "wires": [
+            [
+                "ee65ac27d1748118"
+            ]
+        ]
+    },
+    {
+        "id": "470aa654060aeb9f",
+        "type": "link in",
+        "z": "8b54ee4c.ea65c",
+        "g": "b0dff7256fa3aa44",
+        "name": "Create Maidenhead",
+        "links": [],
+        "x": 2195,
+        "y": 380,
+        "wires": [
+            [
+                "367e8f7477adf203"
+            ]
+        ]
+    },
+    {
+        "id": "ee65ac27d1748118",
+        "type": "link out",
+        "z": "8b54ee4c.ea65c",
+        "g": "b0dff7256fa3aa44",
+        "name": "Created Maidenhead",
+        "mode": "return",
+        "links": [],
+        "x": 2475,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "51bed90fe56b8ba1",
+        "type": "change",
+        "z": "8b54ee4c.ea65c",
+        "g": "1ec75a897fad92ff",
+        "name": "Rename values",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.milstd_type",
+                "pt": "msg",
+                "to": "payload.event.$.type",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2320,
+        "y": 480,
+        "wires": [
+            [
+                "1d26247fa1916339"
+            ]
+        ]
+    },
+    {
+        "id": "1d26247fa1916339",
+        "type": "change",
+        "z": "8b54ee4c.ea65c",
+        "g": "1ec75a897fad92ff",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.milstd_type",
+                "pt": "msg",
+                "to": "$substringAfter(msg.payload.milstd_type, \"-\")\t",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2540,
+        "y": 480,
+        "wires": [
+            [
+                "1b75dd0903f69888"
+            ]
+        ]
+    },
+    {
+        "id": "1b75dd0903f69888",
+        "type": "link call",
+        "z": "8b54ee4c.ea65c",
+        "g": "1ec75a897fad92ff",
+        "name": "",
+        "links": [
+            "7d9a281b184ee894"
+        ],
+        "timeout": "30",
+        "x": 2800,
+        "y": 480,
+        "wires": [
+            [
+                "d1d20e3c1c32b38e",
+                "a53ef850deda9c67"
+            ]
+        ]
+    },
+    {
+        "id": "32613f47cac9874a",
+        "type": "link in",
+        "z": "8b54ee4c.ea65c",
+        "g": "1ec75a897fad92ff",
+        "name": "Type 2525C In",
+        "links": [
+            "f91d86aad6f21218"
+        ],
+        "x": 2195,
+        "y": 480,
+        "wires": [
+            [
+                "51bed90fe56b8ba1"
+            ]
+        ]
+    },
+    {
+        "id": "6446d7a3969bd6a4",
+        "type": "function",
+        "z": "8b54ee4c.ea65c",
+        "g": "1ec75a897fad92ff",
+        "name": "Make PLI message",
+        "func": "//txdata =msg.payload.callsign + \",\" + msg.payload.lat + \",\" + msg.payload.lon\n// replaced lat/lon with maidenhead\nconst txdata = msg.payload.JS8callgroup+ \" 1,\" +msg.payload.callsign+ \",\" +msg.payload.uid+ \",\" +msg.payload.milstd_type+ \",\" +msg.payload.maidenhead\nmsg.payload = {\n    type:\"TX.SEND_MESSAGE\",value:txdata\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 3230,
+        "y": 480,
+        "wires": [
+            [
+                "b9cd668bc0c33938"
+            ]
+        ]
+    },
+    {
+        "id": "a53ef850deda9c67",
+        "type": "link call",
+        "z": "8b54ee4c.ea65c",
+        "g": "1ec75a897fad92ff",
+        "name": "",
+        "links": [
+            "470aa654060aeb9f"
+        ],
+        "timeout": "30",
+        "x": 3030,
+        "y": 480,
+        "wires": [
+            [
+                "6446d7a3969bd6a4"
+            ]
+        ]
+    },
+    {
+        "id": "b9cd668bc0c33938",
+        "type": "link out",
+        "z": "8b54ee4c.ea65c",
+        "g": "1ec75a897fad92ff",
+        "name": "To Send JS8call",
+        "mode": "link",
+        "links": [
+            "38a9983825247a1f"
+        ],
+        "x": 3355,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "38a9983825247a1f",
+        "type": "link in",
+        "z": "8b54ee4c.ea65c",
+        "name": "Send JS8call",
+        "links": [
+            "b9cd668bc0c33938",
+            "7bb24ad8d7c37980",
+            "c00c1e0fb92ec026"
+        ],
+        "x": 1395,
+        "y": 320,
+        "wires": [
+            [
+                "f714786d9a30b660"
+            ]
+        ]
+    },
+    {
+        "id": "643411502d43d581",
+        "type": "link out",
+        "z": "8b54ee4c.ea65c",
+        "g": "2ccd90acf36c6d03",
+        "name": "To Spot In",
+        "mode": "link",
+        "links": [
+            "54fc24c83a9842d7",
+            "90f268492d7b9875"
+        ],
+        "x": 1295,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "54fc24c83a9842d7",
+        "type": "link in",
+        "z": "8b54ee4c.ea65c",
+        "g": "f373302b37579192",
+        "name": "Type Spot In",
+        "links": [
+            "643411502d43d581"
+        ],
+        "x": 2195,
+        "y": 580,
+        "wires": [
+            [
+                "286bad5908c4b4c7"
+            ]
+        ]
+    },
+    {
+        "id": "286bad5908c4b4c7",
+        "type": "change",
+        "z": "8b54ee4c.ea65c",
+        "g": "f373302b37579192",
+        "name": "Rename values",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.spot_type",
+                "pt": "msg",
+                "to": "payload.event.detail[0].usericon[0].$.iconsetpath",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2320,
+        "y": 580,
+        "wires": [
+            [
+                "074900fadc9e3fe4"
+            ]
+        ]
+    },
+    {
+        "id": "074900fadc9e3fe4",
+        "type": "change",
+        "z": "8b54ee4c.ea65c",
+        "g": "f373302b37579192",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.spot_type",
+                "pt": "msg",
+                "to": "$substringAfter(msg.payload.spot_type, \"b-m-p-s-m/-\")\t",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2540,
+        "y": 580,
+        "wires": [
+            [
+                "fb736a616b77a9f1"
+            ]
+        ]
+    },
+    {
+        "id": "fb736a616b77a9f1",
+        "type": "link call",
+        "z": "8b54ee4c.ea65c",
+        "g": "f373302b37579192",
+        "name": "",
+        "links": [
+            "7d9a281b184ee894"
+        ],
+        "timeout": "30",
+        "x": 2800,
+        "y": 580,
+        "wires": [
+            [
+                "33be524aac971e24"
+            ]
+        ]
+    },
+    {
+        "id": "33be524aac971e24",
+        "type": "link call",
+        "z": "8b54ee4c.ea65c",
+        "g": "f373302b37579192",
+        "name": "",
+        "links": [
+            "470aa654060aeb9f"
+        ],
+        "timeout": "30",
+        "x": 3030,
+        "y": 580,
+        "wires": [
+            [
+                "12797457b0227b27"
+            ]
+        ]
+    },
+    {
+        "id": "12797457b0227b27",
+        "type": "function",
+        "z": "8b54ee4c.ea65c",
+        "g": "f373302b37579192",
+        "name": "Make PLI message",
+        "func": "//txdata =msg.payload.callsign + \",\" + msg.payload.lat + \",\" + msg.payload.lon\n// replaced lat/lon with maidenhead\nconst txdata = msg.payload.JS8callgroup+ \" 2,\" +msg.payload.callsign+ \",\" +msg.payload.uid+ \",\" +msg.payload.spot_type+ \",\" +msg.payload.maidenhead\nmsg.payload = {\n    type:\"TX.SEND_MESSAGE\",value:txdata\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 3230,
+        "y": 580,
+        "wires": [
+            [
+                "7bb24ad8d7c37980"
+            ]
+        ]
+    },
+    {
+        "id": "7bb24ad8d7c37980",
+        "type": "link out",
+        "z": "8b54ee4c.ea65c",
+        "g": "f373302b37579192",
+        "name": "To Send JS8call",
+        "mode": "link",
+        "links": [
+            "38a9983825247a1f"
+        ],
+        "x": 3355,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "e7436f4e11e44234",
+        "type": "change",
+        "z": "8b54ee4c.ea65c",
+        "g": "466f58d6f321e8bc",
+        "name": "",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payloadArray",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload.callsign",
+                "pt": "msg",
+                "to": "payloadArray[1]",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload.uid",
+                "pt": "msg",
+                "to": "payloadArray[2]",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload.spot_type",
+                "pt": "msg",
+                "to": "payloadArray[3]",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload.Maidenhead",
+                "pt": "msg",
+                "to": "payloadArray[4]",
+                "tot": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payloadArray",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payload_orig",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1080,
+        "y": 1220,
+        "wires": [
+            [
+                "627aded5e71ed0b2"
+            ]
+        ]
+    },
+    {
+        "id": "627aded5e71ed0b2",
+        "type": "function",
+        "z": "8b54ee4c.ea65c",
+        "g": "466f58d6f321e8bc",
+        "name": "Maidenhead -> Lat, Lon",
+        "func": "/*\nMaidenhead Class taken from: \n  https://github.com/mehmetc/Maidenhead\nAuthor: Mehmet Celik\nLicense: MIT\nCopyright: Copyright 2016 Mehmet Celik\n\nThe MIT License (MIT)\n\nCopyright (c) 2016 Mehmet Celik\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n*/\n\nclass Maidenhead {\n    constructor(lat, lon, precision = 5){\n        this.lat = lat;\n        this.lon = lon;\n        this.precision = precision;\n    }\n\n    static valid(mlocation){\n        if (typeof mlocation !== 'string') {\n            return false;\n        }\n\n        if (mlocation.length < 2) {\n            return false;\n        }\n\n        if ((mlocation.length % 2) !== 0) {\n            return false;\n        }\n\n        var length = mlocation.length / 2;\n\n        for (var counter=0; counter<length;i++){\n            var grid = mlocation.substr(counter*2,2);\n\n            if (counter == 0){\n                if (grid.match(/[a-rA-R]{2}/) == null) {\n                    return false;\n                }\n\n            } else if ((counter % 2) == 0) {\n                if (grid.match(/[a-xA-X]{2}/) == null) {\n                    return false;\n                }\n            } else {\n                if (grid.match(/[0-9]{2}/) == null) {\n                    return false;\n                }\n            }\n            return true;\n        }\n    }\n\n    static toLatLon(mlocation){\n        var maidenhead = new Maidenhead();\n        maidenhead.locator = mlocation;\n\n        return [maidenhead.lat, maidenhead.lon];\n    }\n\n    distanceTo(endLatLon, unit = 'km'){\n        var r = 6371;\n\n        switch(unit) {\n           case 'm':\n               r *= 1000;\n        }\n\n        var hn = this._deg_to_rad(this.lat);\n        var he = this._deg_to_rad(this.lon);\n        var n  = this._deg_to_rad(endLatLon.lat);\n        var e  = this._deg_to_rad(endLatLon.lon);\n\n        var co = Math.cos(he-e) * Math.cos(hn) * Math.cos(n) + Math.sin(hn) * Math.sin(n);\n        var ca = Math.atan(Math.abs(Math.sqrt(1-co*co) / co));\n\n        if (co <0) {\n            ca = Math.PI - ca;\n        }\n\n        return r * ca;\n    }\n\n    bearingTo(toHeading, compassBearing = false) {\n        let hn = this._deg_to_rad(this.lat);\n        let he = this._deg_to_rad(this.lon);\n        let n  = this._deg_to_rad(toHeading.lat);\n        let e  = this._deg_to_rad(toHeading.lon);\n\n        let co = Math.cos(he - e) * Math.cos(hn) * Math.cos(n) + Math.sin(hn) * Math.sin(n);\n        let ca = Math.atan(Math.abs(Math.sqrt(1-co *co)/co));\n\n        if(co <0) {\n            ca = Math.PI - ca\n        }\n\n        let si = Math.sin(e-he) * Math.cos(n) * Math.cos(hn);\n        co = Math.sin(n) - Math.sin(hn) * Math.cos(ca);\n        let az = Math.atan(Math.abs(si/co));\n\n        if (co < 0) {\n            az = Math.PI - az;\n        }\n\n        if(si < 0) {\n            az = -az;\n        }\n\n        if(az < 0) {\n            az = az + 2 * Math.PI;\n        }\n\n        var heading = Math.round(this._rad_to_deg(az));\n\n        if (compassBearing) {\n            heading = this._compass_bearing(heading);\n        }\n\n        return heading;\n    }\n\n    get lat(){\n        return parseFloat(this._lat.toPrecision(7));\n    }\n\n    set lat(pos){\n        this._lat = this._range_check(\"lat\", 90.0, pos)\n    }\n\n    get lon(){\n        return parseFloat(this._lon.toPrecision(7));\n    }\n\n    set lon(pos){\n        this._lon = this._range_check(\"lon\", 180.0, pos)\n    }\n\n    get precision(){\n        return this._precision;\n    }\n\n    set precision(p) {\n        this._precision = p;\n    }\n\n    set locator(mlocation){\n        if (!Maidenhead.valid(mlocation)) {\n            throw \"Location is not a valid Maidenhead Locator System string\";\n        }\n\n        this._locator = mlocation;\n        this._lat = -90.00;\n        this._lon = -180.00;\n\n        this._pad_locator();\n\n        this._convert_part_to_latlon(0, 1);\n        this._convert_part_to_latlon(1, 10);\n        this._convert_part_to_latlon(2, 10 * 24);\n        this._convert_part_to_latlon(3, 10 * 24 * 10);\n        this._convert_part_to_latlon(4, 10 * 24 * 10 * 24);\n    }\n\n    get locator(){\n        this._locator = '';\n        this.__lat = this.lat + 90.0;\n        this.__lon = this.lon + 180.0;\n        this.__precision = this.precision;\n\n\n        this._calculate_field();\n        this._calculate_values();\n\n        return this._locator;\n    }\n\n    _compass_bearing(heading) {\n        if (heading >= 0 && heading <= 360){\n            var compassBearings = [\n                {\"label\": \"N\", \"start\": 0, \"end\": 11},\n                {\"label\": \"NNE\", \"start\": 11, \"end\": 33},\n                {\"label\": \"NE\", \"start\": 34, \"end\": 56},\n                {\"label\": \"ENE\", \"start\": 57, \"end\": 78},\n                {\"label\": \"E\", \"start\": 79, \"end\": 101},\n                {\"label\": \"ESE\", \"start\": 102, \"end\": 123},\n                {\"label\": \"SE\", \"start\": 124, \"end\": 146},\n                {\"label\": \"SSE\", \"start\": 147, \"end\": 168},\n                {\"label\": \"S\", \"start\": 169, \"end\": 191},\n                {\"label\": \"SSW\", \"start\": 192, \"end\": 213},\n                {\"label\": \"SW\", \"start\": 214, \"end\": 236},\n                {\"label\": \"WSW\", \"start\": 237, \"end\": 258},\n                {\"label\": \"W\", \"start\":\t259, \"end\": 281},\n                {\"label\": \"WNW\", \"start\": 282, \"end\": 303},\n                {\"label\": \"NW\", \"start\": 304, \"end\": 326},\n                {\"label\": \"NNW\", \"start\": 327, \"end\": 348},\n                {\"label\": \"N\", \"start\": 349, \"end\": 360}\n            ];\n\n            var result = compassBearings.find(function (element, index, array) {\n                if (heading > element.start && heading < element.end) {\n                    return true;\n                }\n                return false;\n            });\n\n            return result ? result.label : '';\n        }\n    }\n\n    _deg_to_rad(deg) {\n        return deg / 180 * Math.PI;\n    }\n\n    _rad_to_deg(rad) {\n        return rad / Math.PI * 180;\n    }\n\n    _pad_locator(){\n        var length = this._locator.length / 2 ;\n\n        while (length < 5) {\n            if ((length%2) == 1) {\n                this._locator += '55';\n            }\n            else {\n                this._locator += 'LL';\n            }\n\n            length = this._locator.length / 2;\n        }\n    }\n\n    _range_check(target, range, pos) {\n        pos = Number(pos);\n        if (pos < -range || pos > range){\n            throw target + \" must be between -\" + range + \" and +\" + range;\n        }\n\n        return pos;\n    }\n\n    _convert_part_to_latlon(counter, divisor) {\n        var grid_lon = this._locator.substr(counter*2, 1);\n        var grid_lat = this._locator.substr(counter*2+1, 1);\n\n        this._lat += this._l2n(grid_lat) * 10.0 / divisor;\n        this._lon += this._l2n(grid_lon) * 20.0 / divisor;\n    }\n\n    _calculate_field(){\n        this.__lat = (this.__lat/10) + 0.0000001;\n        this.__lon = (this.__lon/20) + 0.0000001;\n        this._locator += this._n2l(Math.floor(this.__lon)).toUpperCase() + this._n2l(Math.floor(this.__lat)).toUpperCase();\n        this.__precision -= 1;\n    }\n\n    _calculate_values(){\n        for (let counter=0; counter < this.__precision;counter++) {\n            if((counter%2) == 0) {\n                this._compute_locator(counter, 10);\n            } else {\n                this._compute_locator(counter, 24);\n            }\n        }\n    }\n\n    _compute_locator(counter, divisor){\n        this.__lat = (this.__lat - Math.floor(this.__lat)) * divisor;\n        this.__lon = (this.__lon - Math.floor(this.__lon)) * divisor;\n\n        if ((counter%2) == 0) {\n            this._locator += \"\" + Math.floor(this.__lon) + \"\" + Math.floor(this.__lat)\n        } else {\n            this._locator += this._n2l(Math.floor(this.__lon)) + this._n2l(Math.floor(this.__lat))\n        }\n    }\n\n    _l2n(letter){\n        if (letter.match(/[0-9]+/)) {\n            return parseInt(letter);\n        }else{\n            return letter.toLowerCase().charCodeAt(0) - 97;\n        }\n\n    }\n    _n2l(number){\n        return String.fromCharCode(97 + number);\n    }\n}\n\n// Extract Maidenhead & Callsign from CQ Call:\n//let splitCopy = msg.payload.copy.split(\" \")\n//msg.payload.Maidenhead = splitCopy.pop();\n//msg.payload.callsign = splitCopy.pop();\n\n// Extract Latitute & Longitude from Maidenhead:\nmsg.payload.location = Maidenhead.toLatLon(msg.payload.Maidenhead);\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1290,
+        "y": 1220,
+        "wires": [
+            [
+                "f0d9c6b02a50a38d"
+            ]
+        ]
+    },
+    {
+        "id": "ede570fd6fec4f3c",
+        "type": "link out",
+        "z": "8b54ee4c.ea65c",
+        "g": "466f58d6f321e8bc",
+        "name": "Position SA",
+        "mode": "link",
+        "links": [
+            "520d7c534c5146c8"
+        ],
+        "x": 1715,
+        "y": 1220,
+        "wires": []
+    },
+    {
+        "id": "f0d9c6b02a50a38d",
+        "type": "function",
+        "z": "8b54ee4c.ea65c",
+        "g": "466f58d6f321e8bc",
+        "name": "CoT",
+        "func": "const dt = Date.now();\nconst dtD = new Date(dt);\nconst dtD5 = new Date(dt + 14400000);\n\nmsg.payload = {\n    \"event\": {\n        \"$\": { \n            \"version\":\"2.0\",\n            \"type\":\"b-m-p-s-m\",\n            \"uid\":`${msg.payload.uid}`,\n            \"time\":dtD.toISOString(),\n            \"start\":dtD.toISOString(),\n            \"stale\":dtD5.toISOString(),\n            \"how\":\"h-g-i-g-o\"\n\n        },\n        \"detail\": [\n            {\n                \"usericon\": [\n                    {\n                        \"$\": {\n                            \"iconsetpath\":\"COT_MAPPING_SPOTMAP/b-m-p-s-m/-\" +`${msg.payload.spot_type}`\n                        }\n                    }],\n                \"contact\": [\n                    {\n                        \"$\": {\n                            \"callsign\":`${msg.payload.callsign}`\n                        }\n                    }],\n                \"ce_human_input\":\"true\",\n                \"color\": [\n                    {\n                        \"$\": {\n                            \"argb\":\"-\" +`${msg.payload.spot_type}`\n                        }\n                    }],\n                \"remarks\":\"\",\n                \"link\": [\n                    {\n                        \"$\": {\n                            \"uid\":\"80085\",\n                            \"production_time\":dtD.toISOString(),\n                            \"type\":\"a-f-G\",\n                            \"parent_callsign\":\"BOBTAK\",\n                            \"relation\":\"p-p\"\n                        }\n                    }],\n                \"precisionlocation\": [\n                    {\n                        \"$\": {\n                            \"geopointsrc\":\"USER\"\n                        }\n                    }]\n            }],\n        \"point\": [ \n            { \n                \"$\": { \n                    \"lat\": `${msg.payload.location[0]}`, \n                    \"lon\": `${msg.payload.location[1]}`, \n                    \"hae\": \"9999999.0\", \n                    \"ce\": \"35.0\", \n                    \"le\": \"9999999.0\"\n                }\n                \n            }\n        ]\n    }\n    \n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1470,
+        "y": 1220,
+        "wires": [
+            [
+                "03fcda2aa1f2eb84"
+            ]
+        ]
+    },
+    {
+        "id": "03fcda2aa1f2eb84",
+        "type": "xml",
+        "z": "8b54ee4c.ea65c",
+        "g": "466f58d6f321e8bc",
+        "name": "",
+        "property": "payload",
+        "attr": "",
+        "chr": "",
+        "x": 1610,
+        "y": 1220,
+        "wires": [
+            [
+                "ede570fd6fec4f3c"
+            ]
+        ]
+    },
+    {
+        "id": "f5e7afc455430464",
+        "type": "comment",
+        "z": "8b54ee4c.ea65c",
+        "g": "466f58d6f321e8bc",
+        "name": "Format",
+        "info": "2,callsign,uid,spot_type,maidenhead",
+        "x": 1330,
+        "y": 1180,
+        "wires": []
+    },
+    {
+        "id": "90f268492d7b9875",
+        "type": "link in",
+        "z": "8b54ee4c.ea65c",
+        "g": "7565a618f2df4784",
+        "name": "Type Self In",
+        "links": [
+            "643411502d43d581",
+            "49dc9cd640d1dad4"
+        ],
+        "x": 2195,
+        "y": 680,
+        "wires": [
+            [
+                "6cab27ea19a8d831"
+            ]
+        ]
+    },
+    {
+        "id": "6cab27ea19a8d831",
+        "type": "link call",
+        "z": "8b54ee4c.ea65c",
+        "g": "7565a618f2df4784",
+        "name": "",
+        "links": [
+            "7d9a281b184ee894"
+        ],
+        "timeout": "30",
+        "x": 2360,
+        "y": 680,
+        "wires": [
+            [
+                "786d9dc432ef1046"
+            ]
+        ]
+    },
+    {
+        "id": "786d9dc432ef1046",
+        "type": "link call",
+        "z": "8b54ee4c.ea65c",
+        "g": "7565a618f2df4784",
+        "name": "",
+        "links": [
+            "470aa654060aeb9f"
+        ],
+        "timeout": "30",
+        "x": 2590,
+        "y": 680,
+        "wires": [
+            [
+                "c8dc18ab683aa5b9"
+            ]
+        ]
+    },
+    {
+        "id": "c8dc18ab683aa5b9",
+        "type": "function",
+        "z": "8b54ee4c.ea65c",
+        "g": "7565a618f2df4784",
+        "name": "Make PLI message",
+        "func": "//txdata =msg.payload.callsign + \",\" + msg.payload.lat + \",\" + msg.payload.lon\n// replaced lat/lon with maidenhead\nconst txdata = msg.payload.JS8callgroup+ \" 4,\" +msg.payload.callsign+ \",\" +msg.payload.uid+ \",\" +msg.payload.maidenhead\nmsg.payload = {\n    type:\"TX.SEND_MESSAGE\",value:txdata\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2790,
+        "y": 680,
+        "wires": [
+            [
+                "c00c1e0fb92ec026",
+                "e52d0a89e4d81ad1"
+            ]
+        ]
+    },
+    {
+        "id": "c00c1e0fb92ec026",
+        "type": "link out",
+        "z": "8b54ee4c.ea65c",
+        "g": "7565a618f2df4784",
+        "name": "To Send JS8call",
+        "mode": "link",
+        "links": [
+            "38a9983825247a1f"
+        ],
+        "x": 2915,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "49dc9cd640d1dad4",
+        "type": "link out",
+        "z": "8b54ee4c.ea65c",
+        "g": "4b44f3641f5b8a04",
+        "name": "To Self In",
+        "mode": "link",
+        "links": [
+            "90f268492d7b9875"
+        ],
+        "x": 1295,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "855378e38d24f6e3",
+        "type": "change",
+        "z": "8b54ee4c.ea65c",
+        "g": "36d556d56b82cc52",
+        "name": "",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payloadArray",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload.callsign",
+                "pt": "msg",
+                "to": "payloadArray[1]",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload.uid",
+                "pt": "msg",
+                "to": "payloadArray[2]",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload.Maidenhead",
+                "pt": "msg",
+                "to": "payloadArray[3]",
+                "tot": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payloadArray",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payload_orig",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1240,
+        "y": 1640,
+        "wires": [
+            [
+                "b06138e83e320d1a"
+            ]
+        ]
+    },
+    {
+        "id": "b06138e83e320d1a",
+        "type": "function",
+        "z": "8b54ee4c.ea65c",
+        "g": "36d556d56b82cc52",
+        "name": "Maidenhead -> Lat, Lon",
+        "func": "/*\nMaidenhead Class taken from: \n  https://github.com/mehmetc/Maidenhead\nAuthor: Mehmet Celik\nLicense: MIT\nCopyright: Copyright 2016 Mehmet Celik\n\nThe MIT License (MIT)\n\nCopyright (c) 2016 Mehmet Celik\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n*/\n\nclass Maidenhead {\n    constructor(lat, lon, precision = 5){\n        this.lat = lat;\n        this.lon = lon;\n        this.precision = precision;\n    }\n\n    static valid(mlocation){\n        if (typeof mlocation !== 'string') {\n            return false;\n        }\n\n        if (mlocation.length < 2) {\n            return false;\n        }\n\n        if ((mlocation.length % 2) !== 0) {\n            return false;\n        }\n\n        var length = mlocation.length / 2;\n\n        for (var counter=0; counter<length;i++){\n            var grid = mlocation.substr(counter*2,2);\n\n            if (counter == 0){\n                if (grid.match(/[a-rA-R]{2}/) == null) {\n                    return false;\n                }\n\n            } else if ((counter % 2) == 0) {\n                if (grid.match(/[a-xA-X]{2}/) == null) {\n                    return false;\n                }\n            } else {\n                if (grid.match(/[0-9]{2}/) == null) {\n                    return false;\n                }\n            }\n            return true;\n        }\n    }\n\n    static toLatLon(mlocation){\n        var maidenhead = new Maidenhead();\n        maidenhead.locator = mlocation;\n\n        return [maidenhead.lat, maidenhead.lon];\n    }\n\n    distanceTo(endLatLon, unit = 'km'){\n        var r = 6371;\n\n        switch(unit) {\n           case 'm':\n               r *= 1000;\n        }\n\n        var hn = this._deg_to_rad(this.lat);\n        var he = this._deg_to_rad(this.lon);\n        var n  = this._deg_to_rad(endLatLon.lat);\n        var e  = this._deg_to_rad(endLatLon.lon);\n\n        var co = Math.cos(he-e) * Math.cos(hn) * Math.cos(n) + Math.sin(hn) * Math.sin(n);\n        var ca = Math.atan(Math.abs(Math.sqrt(1-co*co) / co));\n\n        if (co <0) {\n            ca = Math.PI - ca;\n        }\n\n        return r * ca;\n    }\n\n    bearingTo(toHeading, compassBearing = false) {\n        let hn = this._deg_to_rad(this.lat);\n        let he = this._deg_to_rad(this.lon);\n        let n  = this._deg_to_rad(toHeading.lat);\n        let e  = this._deg_to_rad(toHeading.lon);\n\n        let co = Math.cos(he - e) * Math.cos(hn) * Math.cos(n) + Math.sin(hn) * Math.sin(n);\n        let ca = Math.atan(Math.abs(Math.sqrt(1-co *co)/co));\n\n        if(co <0) {\n            ca = Math.PI - ca\n        }\n\n        let si = Math.sin(e-he) * Math.cos(n) * Math.cos(hn);\n        co = Math.sin(n) - Math.sin(hn) * Math.cos(ca);\n        let az = Math.atan(Math.abs(si/co));\n\n        if (co < 0) {\n            az = Math.PI - az;\n        }\n\n        if(si < 0) {\n            az = -az;\n        }\n\n        if(az < 0) {\n            az = az + 2 * Math.PI;\n        }\n\n        var heading = Math.round(this._rad_to_deg(az));\n\n        if (compassBearing) {\n            heading = this._compass_bearing(heading);\n        }\n\n        return heading;\n    }\n\n    get lat(){\n        return parseFloat(this._lat.toPrecision(7));\n    }\n\n    set lat(pos){\n        this._lat = this._range_check(\"lat\", 90.0, pos)\n    }\n\n    get lon(){\n        return parseFloat(this._lon.toPrecision(7));\n    }\n\n    set lon(pos){\n        this._lon = this._range_check(\"lon\", 180.0, pos)\n    }\n\n    get precision(){\n        return this._precision;\n    }\n\n    set precision(p) {\n        this._precision = p;\n    }\n\n    set locator(mlocation){\n        if (!Maidenhead.valid(mlocation)) {\n            throw \"Location is not a valid Maidenhead Locator System string\";\n        }\n\n        this._locator = mlocation;\n        this._lat = -90.00;\n        this._lon = -180.00;\n\n        this._pad_locator();\n\n        this._convert_part_to_latlon(0, 1);\n        this._convert_part_to_latlon(1, 10);\n        this._convert_part_to_latlon(2, 10 * 24);\n        this._convert_part_to_latlon(3, 10 * 24 * 10);\n        this._convert_part_to_latlon(4, 10 * 24 * 10 * 24);\n    }\n\n    get locator(){\n        this._locator = '';\n        this.__lat = this.lat + 90.0;\n        this.__lon = this.lon + 180.0;\n        this.__precision = this.precision;\n\n\n        this._calculate_field();\n        this._calculate_values();\n\n        return this._locator;\n    }\n\n    _compass_bearing(heading) {\n        if (heading >= 0 && heading <= 360){\n            var compassBearings = [\n                {\"label\": \"N\", \"start\": 0, \"end\": 11},\n                {\"label\": \"NNE\", \"start\": 11, \"end\": 33},\n                {\"label\": \"NE\", \"start\": 34, \"end\": 56},\n                {\"label\": \"ENE\", \"start\": 57, \"end\": 78},\n                {\"label\": \"E\", \"start\": 79, \"end\": 101},\n                {\"label\": \"ESE\", \"start\": 102, \"end\": 123},\n                {\"label\": \"SE\", \"start\": 124, \"end\": 146},\n                {\"label\": \"SSE\", \"start\": 147, \"end\": 168},\n                {\"label\": \"S\", \"start\": 169, \"end\": 191},\n                {\"label\": \"SSW\", \"start\": 192, \"end\": 213},\n                {\"label\": \"SW\", \"start\": 214, \"end\": 236},\n                {\"label\": \"WSW\", \"start\": 237, \"end\": 258},\n                {\"label\": \"W\", \"start\":\t259, \"end\": 281},\n                {\"label\": \"WNW\", \"start\": 282, \"end\": 303},\n                {\"label\": \"NW\", \"start\": 304, \"end\": 326},\n                {\"label\": \"NNW\", \"start\": 327, \"end\": 348},\n                {\"label\": \"N\", \"start\": 349, \"end\": 360}\n            ];\n\n            var result = compassBearings.find(function (element, index, array) {\n                if (heading > element.start && heading < element.end) {\n                    return true;\n                }\n                return false;\n            });\n\n            return result ? result.label : '';\n        }\n    }\n\n    _deg_to_rad(deg) {\n        return deg / 180 * Math.PI;\n    }\n\n    _rad_to_deg(rad) {\n        return rad / Math.PI * 180;\n    }\n\n    _pad_locator(){\n        var length = this._locator.length / 2 ;\n\n        while (length < 5) {\n            if ((length%2) == 1) {\n                this._locator += '55';\n            }\n            else {\n                this._locator += 'LL';\n            }\n\n            length = this._locator.length / 2;\n        }\n    }\n\n    _range_check(target, range, pos) {\n        pos = Number(pos);\n        if (pos < -range || pos > range){\n            throw target + \" must be between -\" + range + \" and +\" + range;\n        }\n\n        return pos;\n    }\n\n    _convert_part_to_latlon(counter, divisor) {\n        var grid_lon = this._locator.substr(counter*2, 1);\n        var grid_lat = this._locator.substr(counter*2+1, 1);\n\n        this._lat += this._l2n(grid_lat) * 10.0 / divisor;\n        this._lon += this._l2n(grid_lon) * 20.0 / divisor;\n    }\n\n    _calculate_field(){\n        this.__lat = (this.__lat/10) + 0.0000001;\n        this.__lon = (this.__lon/20) + 0.0000001;\n        this._locator += this._n2l(Math.floor(this.__lon)).toUpperCase() + this._n2l(Math.floor(this.__lat)).toUpperCase();\n        this.__precision -= 1;\n    }\n\n    _calculate_values(){\n        for (let counter=0; counter < this.__precision;counter++) {\n            if((counter%2) == 0) {\n                this._compute_locator(counter, 10);\n            } else {\n                this._compute_locator(counter, 24);\n            }\n        }\n    }\n\n    _compute_locator(counter, divisor){\n        this.__lat = (this.__lat - Math.floor(this.__lat)) * divisor;\n        this.__lon = (this.__lon - Math.floor(this.__lon)) * divisor;\n\n        if ((counter%2) == 0) {\n            this._locator += \"\" + Math.floor(this.__lon) + \"\" + Math.floor(this.__lat)\n        } else {\n            this._locator += this._n2l(Math.floor(this.__lon)) + this._n2l(Math.floor(this.__lat))\n        }\n    }\n\n    _l2n(letter){\n        if (letter.match(/[0-9]+/)) {\n            return parseInt(letter);\n        }else{\n            return letter.toLowerCase().charCodeAt(0) - 97;\n        }\n\n    }\n    _n2l(number){\n        return String.fromCharCode(97 + number);\n    }\n}\n\n// Extract Maidenhead & Callsign from CQ Call:\n//let splitCopy = msg.payload.copy.split(\" \")\n//msg.payload.Maidenhead = splitCopy.pop();\n//msg.payload.callsign = splitCopy.pop();\n\n// Extract Latitute & Longitude from Maidenhead:\nmsg.payload.location = Maidenhead.toLatLon(msg.payload.Maidenhead);\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1450,
+        "y": 1640,
+        "wires": [
+            [
+                "c8514e2834071e93"
+            ]
+        ]
+    },
+    {
+        "id": "9a8fef750361e618",
+        "type": "link out",
+        "z": "8b54ee4c.ea65c",
+        "g": "36d556d56b82cc52",
+        "name": "Position SA",
+        "mode": "link",
+        "links": [
+            "520d7c534c5146c8"
+        ],
+        "x": 1875,
+        "y": 1640,
+        "wires": []
+    },
+    {
+        "id": "c8514e2834071e93",
+        "type": "function",
+        "z": "8b54ee4c.ea65c",
+        "g": "36d556d56b82cc52",
+        "name": "CoT",
+        "func": "const dt = Date.now();\nconst dtD = new Date(dt);\nconst dtD5 = new Date(dt + 14400000);\n\nmsg.payload = {\n    \"event\": {\n        \"$\": { \n            \"version\":\"2.0\",\n            \"type\":\"a-f-G-U\",\n            \"uid\":`${msg.payload.uid}`,\n            \"time\":dtD.toISOString(),\n            \"start\":dtD.toISOString(),\n            \"stale\":dtD5.toISOString(),\n            \"how\":\"m-g\"\n\n        },\n        \"detail\": [\n            {\n                \"contact\": [\n                    {\n                        \"$\": {\n                            \"callsign\":`${msg.payload.callsign}`\n                        }\n                    }],\n                \"link\": [\n                    {\n                        \"$\": {\n                            \"uid\":\"80085\",\n                            \"production_time\":dtD.toISOString(),\n                            \"type\":\"a-f-G-U-U-S-R\",\n                            \"parent_callsign\":\"BOBTAK\",\n                            \"relation\":\"p-p\"\n                        }\n                    }],\n                \"precisionlocation\": [\n                    {\n                        \"$\": {\n                            \"geopointsrc\":\"GPS\"\n                        }\n                    }]\n            }],\n        \"point\": [ \n            { \n                \"$\": { \n                    \"lat\": `${msg.payload.location[0]}`, \n                    \"lon\": `${msg.payload.location[1]}`, \n                    \"hae\": \"9999999.0\", \n                    \"ce\": \"9999999.0\", \n                    \"le\": \"9999999.0\"\n                }\n                \n            }\n        ]\n    }\n    \n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1630,
+        "y": 1640,
+        "wires": [
+            [
+                "14b74d085c975762"
+            ]
+        ]
+    },
+    {
+        "id": "14b74d085c975762",
+        "type": "xml",
+        "z": "8b54ee4c.ea65c",
+        "g": "36d556d56b82cc52",
+        "name": "",
+        "property": "payload",
+        "attr": "",
+        "chr": "",
+        "x": 1770,
+        "y": 1640,
+        "wires": [
+            [
+                "9a8fef750361e618",
+                "820a1c9e9bb87dba"
+            ]
+        ]
+    },
+    {
+        "id": "e8ca1074ada9bc07",
+        "type": "comment",
+        "z": "8b54ee4c.ea65c",
+        "g": "36d556d56b82cc52",
+        "name": "Format",
+        "info": "4,callsign,uid,maidenhead",
+        "x": 1490,
+        "y": 1600,
+        "wires": []
+    },
+    {
+        "id": "820a1c9e9bb87dba",
+        "type": "debug",
+        "z": "8b54ee4c.ea65c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1910,
+        "y": 1720,
+        "wires": []
+    }
+]
